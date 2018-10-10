@@ -12,6 +12,10 @@ header {
     display: flex;
     justify-content: space-between;
 
+    .hamburger {
+      cursor: pointer;
+    }
+
     .hamburger div {
       border: 1px solid #d5dfef;
       width: 25px;
