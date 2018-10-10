@@ -4,7 +4,8 @@ body {
 
 header {
   padding: 20px;
-  background-color: rgb(226, 226, 226);
+  background-color: #2355aa;
+  color: #d5dfef;
 
   nav {
     list-style: none;
@@ -12,7 +13,7 @@ header {
     justify-content: space-between;
 
     .hamburger div {
-      border: 1px solid black;
+      border: 1px solid #d5dfef;
       width: 25px;
       margin: 5px;
     }
