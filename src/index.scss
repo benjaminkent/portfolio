@@ -1,12 +1,3 @@
 @import 'header';
 @import 'headshot';
-
-.about-me {
-  background-image: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  p {
-    text-align: center;
-  }
-}
+@import 'aboutme';
