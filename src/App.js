@@ -10,7 +10,7 @@ class App extends Component {
       <div className="main">
         <Header />
         <Headshot />
-        <AboutMe />
+        {/* <AboutMe /> */}
       </div>
     )
   }

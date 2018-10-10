@@ -1,0 +1,15 @@
+.pop-out-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 1px solid greenyellow;
+  width: 250px;
+  height: 100%;
+  background-color: greenyellow;
+
+  .menu-x {
+    position: absolute;
+    right: 1.5rem;
+  }
+}

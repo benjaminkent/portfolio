@@ -4,7 +4,7 @@ class Headshot extends Component {
   render() {
     return (
       <>
-        <section>
+        <section className="headshot-container">
           <img className="headshot" src="/images/square.jpg" alt="headshot" />
         </section>
       </>

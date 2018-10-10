@@ -6,13 +6,12 @@
   border: 10px solid rgba($color: #d5dfef, $alpha: 0.5);
 }
 
-section {
+.headshot-container {
   height: 20rem;
   display: flex;
-  position: relative;
 }
 
-section::after {
+.headshot-container::after {
   content: '';
   background: url('/images/beach2.jpg');
   background-size: cover;
@@ -23,6 +22,7 @@ section::after {
   right: 0;
   position: absolute;
   z-index: -1;
+  height: 25rem;
 }
 
 .main {
