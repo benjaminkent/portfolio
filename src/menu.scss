@@ -1,15 +1,32 @@
-.pop-out-menu {
-  display: none;
+.menu {
   position: absolute;
   right: 0;
   top: 0;
-  border: 1px solid greenyellow;
   width: 250px;
   height: 100%;
-  background-color: greenyellow;
+  background-color: #2355aa;
+  color: #d5dfef;
+  opacity: 0.93;
 
   .menu-x {
     position: absolute;
     right: 1.5rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-right: 5px;
+  }
+
+  nav {
+    padding-top: 5rem;
+
+    .phone {
+      font-size: 1.2rem;
+    }
+
+    li {
+      list-style: none;
+      font-size: 1.5rem;
+      padding: 1.5rem 0;
+    }
   }
 }
