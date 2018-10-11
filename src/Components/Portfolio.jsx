@@ -17,7 +17,7 @@ class Portfolio extends Component {
   render() {
     return (
       <>
-        <Header />
+        <Header class={this.state.class} />
         <Menu class={this.state.class} />
         <Headshot />
         <AboutMe />
