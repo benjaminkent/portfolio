@@ -1,4 +1,5 @@
 .menu {
+  // display: none;
   position: absolute;
   right: 0;
   top: 0;
@@ -14,6 +15,7 @@
     font-size: 2rem;
     margin-top: 1rem;
     margin-right: 5px;
+    cursor: pointer;
   }
 
   nav {
