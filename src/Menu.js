@@ -1,10 +1,24 @@
 import React, { Component } from 'react'
 
 class Menu extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      class: 'normal'
+    }
+  }
+
+  _toggle = event => {
+    this.setState({
+      class: 'toggle'
+    })
+  }
+
   render() {
     return (
       <>
-        <section className="menu">
+        <section onClick={this._toggle} className={`${this.state.class} menu`}>
           <p className="menu-x">X</p>
           <nav>
             <ul>
