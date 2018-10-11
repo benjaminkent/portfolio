@@ -6,11 +6,19 @@ import AboutMe from './AboutMe'
 import Menu from './Menu'
 
 class Portfolio extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      class: 'toggle'
+    }
+  }
+
   render() {
     return (
       <>
         <Header />
-        <Menu />
+        <Menu class={this.state.class} />
         <Headshot />
         <AboutMe />
       </>
