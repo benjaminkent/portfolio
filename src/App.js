@@ -1,18 +1,12 @@
 import React, { Component } from 'react'
 
-import Header from './Header'
-import AboutMe from './AboutMe'
-import Headshot from './Headshot'
-import Menu from './Menu'
+import Portfolio from './Components/Portfolio'
 
 class App extends Component {
   render() {
     return (
       <div className="main">
-        <Header />
-        <Menu />
-        <Headshot />
-        <AboutMe />
+        <Portfolio />
       </div>
     )
   }
