@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-import Portfolio from './Components/Portfolio'
+import Home from './Components/Home'
 
 class App extends Component {
   render() {
     return (
       <div className="main">
-        <Portfolio />
+        <Home />
       </div>
     )
   }

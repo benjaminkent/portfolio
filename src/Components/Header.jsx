@@ -6,7 +6,7 @@ class Header extends Component {
       <header>
         <nav>
           <li>Logo</li>
-          <li onClick={this._toggle} className="hamburger">
+          <li className="hamburger">
             <div />
             <div />
             <div />

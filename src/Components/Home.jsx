@@ -5,20 +5,12 @@ import Headshot from './Headshot'
 import AboutMe from './AboutMe'
 import Menu from './Menu'
 
-class Portfolio extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      class: 'toggle'
-    }
-  }
-
+class Home extends Component {
   render() {
     return (
       <>
-        <Header class={this.state.class} />
-        <Menu class={this.state.class} />
+        <Header />
+        <Menu />
         <Headshot />
         <AboutMe />
       </>
@@ -26,4 +18,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio
+export default Home
