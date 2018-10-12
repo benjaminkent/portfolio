@@ -10,7 +10,7 @@ class Home extends Component {
     return (
       <>
         <Header />
-        <Menu />
+        {/* <Menu /> */}
         <Headshot />
         <AboutMe />
       </>
