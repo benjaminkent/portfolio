@@ -31,10 +31,14 @@ class Header extends Component {
     return (
       <>
         <header>
-          <nav>
+          <nav className="big-nav">
             <li>
               <img className="logo" src="./images/logo.png" alt="logo" />
             </li>
+            <li className="big-header">Home</li>
+            <li className="big-header">Portfolio</li>
+            <li className="big-header">Blog</li>
+            <li className="big-header contact">ben@benjaminkent.io</li>
             <li onClick={this._openMenu} className="hamburger">
               <div />
               <div />

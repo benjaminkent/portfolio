@@ -5,3 +5,69 @@
 html {
   font-family: 'Raleway', sans-serif;
 }
+
+@media (max-width: 700px) {
+  .big-header {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .hamburger {
+    display: none;
+  }
+
+  .big-nav {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .big-header {
+    padding: 0.5rem 1.5rem 0 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .contact {
+    font-size: 1.2rem;
+  }
+
+  .headshot {
+    height: 17rem;
+  }
+
+  .headshot-container {
+    height: 28rem;
+  }
+
+  .headshot-container::after {
+    height: 33rem;
+  }
+
+  .about-me {
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .headshot-container {
+    height: 32rem;
+  }
+
+  .headshot-container::after {
+    height: 37rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .headshot-container {
+    height: 36rem;
+  }
+
+  .headshot-container::after {
+    height: 40rem;
+  }
+
+  .about-me {
+    padding: 4rem 7rem 4rem 7rem;
+  }
+}
