@@ -14,12 +14,55 @@ header {
 
     .hamburger {
       cursor: pointer;
+      padding-top: 5px;
     }
 
     .hamburger div {
-      border: 1px solid #d5dfef;
+      border: 1.5px solid #d5dfef;
       width: 25px;
       margin: 5px;
     }
   }
+}
+
+.toggle {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 75%;
+  height: 100%;
+  background-color: #2355aa;
+  color: #d5dfef;
+  opacity: 0.93;
+
+  .menu-x {
+    position: absolute;
+    right: 1.5rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  nav {
+    padding-top: 5rem;
+
+    .menu-contact {
+      font-size: 1.2rem;
+    }
+
+    li {
+      list-style: none;
+      font-size: 1.5rem;
+      padding: 1.5rem 0;
+    }
+  }
+}
+
+.logo {
+  height: 2.5rem;
 }

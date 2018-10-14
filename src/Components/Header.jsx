@@ -32,7 +32,9 @@ class Header extends Component {
       <>
         <header>
           <nav>
-            <li>Logo</li>
+            <li>
+              <img className="logo" src="./images/logo.png" alt="logo" />
+            </li>
             <li onClick={this._openMenu} className="hamburger">
               <div />
               <div />
