@@ -22,42 +22,6 @@ class AboutMe extends Component {
               I would make a good fit for your Web Development team at: +1 (260)
               438-4562 or ben@benjaminkent.io.
             </p>
-            <p className="skills">
-              <strong>My current tool-set includes:</strong>
-            </p>
-            <div className="language-container">
-              <img
-                className="language"
-                alt="React logo"
-                src="./images/react.png"
-              />
-              <img
-                className="language"
-                alt="React Native logo"
-                src="./images/react-native.png"
-              />
-              <img
-                className="language"
-                alt="Ruby logo"
-                src="./images/ruby.png"
-              />
-              <img
-                className="language"
-                alt="Rails logo"
-                src="./images/rails.png"
-              />
-              <img
-                className="language"
-                alt="JavaScript logo"
-                src="./images/javascript.png"
-              />
-              <img
-                className="language"
-                alt="HTML logo"
-                src="./images/html.png"
-              />
-              <img className="language" alt="CSS logo" src="./images/css.png" />
-            </div>
           </div>
         </div>
       </>

@@ -1,6 +1,8 @@
 @import 'header';
 @import 'headshot';
 @import 'aboutme';
+@import 'languages';
+@import 'footer';
 
 html {
   font-family: 'Raleway', sans-serif;
@@ -65,21 +67,21 @@ html {
 
 @media (min-width: 1000px) {
   .headshot-container {
-    height: 32rem;
+    height: 35rem;
   }
 
   .headshot-container::after {
-    height: 37rem;
+    height: 40rem;
   }
 }
 
 @media (min-width: 1300px) {
   .headshot-container {
-    height: 36rem;
+    height: 44rem;
   }
 
   .headshot-container::after {
-    height: 40rem;
+    height: 48rem;
   }
 
   .about-me {

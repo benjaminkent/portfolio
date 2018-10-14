@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 import Header from './Header'
 import Headshot from './Headshot'
 import AboutMe from './AboutMe'
+import Languages from './Languages'
+import Footer from './Footer'
 
 class Home extends Component {
   render() {
@@ -11,6 +13,8 @@ class Home extends Component {
         <Header />
         <Headshot />
         <AboutMe />
+        <Languages />
+        <Footer />
       </>
     )
   }
