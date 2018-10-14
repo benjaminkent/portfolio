@@ -17,3 +17,22 @@
     font-size: 1.5rem;
   }
 }
+
+p.skills {
+  margin-bottom: 0;
+}
+
+.language {
+  height: 10rem;
+  padding-top: 1.5rem;
+}
+
+.skills {
+  padding-bottom: 1rem;
+}
+
+.language-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

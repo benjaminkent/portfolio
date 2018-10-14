@@ -30,7 +30,7 @@ class Header extends Component {
 
     return (
       <>
-        <header>
+        <header className="header">
           <nav className="big-nav">
             <li>
               <img className="logo" src="./images/logo.png" alt="logo" />
