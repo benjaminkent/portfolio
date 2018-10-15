@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
 class Header extends Component {
   state = {
@@ -23,10 +24,16 @@ class Header extends Component {
         <header className="header">
           <nav className="big-nav">
             <li>
-              <img className="logo" src="./images/logo.png" alt="logo" />
+              <Link to="/">
+                <img className="logo" src="./images/logo.png" alt="logo" />
+              </Link>
             </li>
-            <li className="big-header">Home</li>
-            <li className="big-header">Portfolio</li>
+            <li className="big-header">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="big-header">
+              <Link to="/portfolio">Portfolio</Link>
+            </li>
             <li className="big-header">
               <a
                 href="https://medium.com/@benjaminjehl"
@@ -36,7 +43,9 @@ class Header extends Component {
                 Blog
               </a>
             </li>
-            <li className="big-header">Résumé</li>
+            <li className="big-header">
+              <Link to="/resume">Résumé</Link>
+            </li>
             <li onClick={this._openMenu} className="hamburger">
               <div />
               <div />
@@ -50,8 +59,12 @@ class Header extends Component {
           </p>
           <nav>
             <ul>
-              <li>Home</li>
-              <li>Portfolio</li>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/portfolio">Portfolio</Link>
+              </li>
               <li>
                 <a
                   href="https://medium.com/@benjaminjehl"
@@ -61,7 +74,9 @@ class Header extends Component {
                   Blog
                 </a>
               </li>
-              <li>Résumé</li>
+              <li>
+                <Link to="/resume">Résumé</Link>
+              </li>
               <li className="menu-contact">
                 <a href="tel://12604384562">+1 (260) 438-4562</a>
               </li>
