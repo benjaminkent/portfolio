@@ -48,9 +48,28 @@
   transition: all 0.5s;
 }
 
+.portfolio-items a {
+  text-decoration: none;
+}
+
 @media (max-width: 350px) {
   .portfolio-image {
     height: 11rem;
     width: 18rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .portfolio-image {
+    height: 20rem;
+    width: 30rem;
+    margin: 1rem;
+  }
+
+  .portfolio-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }

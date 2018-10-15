@@ -13,14 +13,22 @@ class PortfolioItems extends Component {
             <ul className="portfolio-items">
               {PortfolioInfo.map(card => {
                 return (
-                  <li
-                    style={{
-                      backgroundImage: `url(${card.imageURL})`
-                    }}
-                    className="portfolio-image"
+                  <a
+                    href={card.sourceURL}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <p className="portfolio-description">{card.description}</p>
-                  </li>
+                    <li
+                      style={{
+                        backgroundImage: `url(${card.imageURL})`
+                      }}
+                      className="portfolio-image"
+                    >
+                      <p className="portfolio-description">
+                        {card.description}
+                      </p>
+                    </li>
+                  </a>
                 )
               })}
             </ul>
