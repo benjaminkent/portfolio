@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Data from './Data.json'
 
 class PortfolioItems extends Component {
   render() {
@@ -10,7 +11,7 @@ class PortfolioItems extends Component {
           </h1>
           <main className="portfolio-items">
             <img
-              src="./images/shopping.png"
+              src={Data[0].shopping.imageURL}
               className="portfolio-image shopping"
               alt="Shopping website"
             />

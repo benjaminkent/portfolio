@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class Header extends Component {
   state = {
-    class: ''
+    class: 'hide'
   }
 
   _openMenu = () => {
