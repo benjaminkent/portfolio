@@ -52,10 +52,22 @@ class Header extends Component {
             <ul>
               <li>Home</li>
               <li>Portfolio</li>
-              <li>Blog</li>
+              <li>
+                <a
+                  href="https://medium.com/@benjaminjehl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Blog
+                </a>
+              </li>
               <li>Résumé</li>
-              <li className="menu-contact">+1 (260) 438-4562</li>
-              <li className="menu-contact">ben@benjaminkent.io</li>
+              <li className="menu-contact">
+                <a href="tel://12604384562">+1 (260) 438-4562</a>
+              </li>
+              <li className="menu-contact">
+                <a href="mailto:ben@benjaminkent.io">ben@benjaminkent.io</a>
+              </li>
             </ul>
           </nav>
         </section>
