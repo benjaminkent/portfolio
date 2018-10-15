@@ -14,16 +14,16 @@ class Languages extends Component {
               alt="React logo"
               src="./images/react.png"
             />
-            <img
-              className="language"
-              alt="React Native logo"
-              src="./images/react-native.png"
-            />
             <img className="language" alt="Ruby logo" src="./images/ruby.png" />
             <img
               className="language"
               alt="Rails logo"
               src="./images/rails.png"
+            />
+            <img
+              className="language"
+              alt="Phaser logo"
+              src="./images/phaser.png"
             />
             <img
               className="language"
