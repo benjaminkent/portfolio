@@ -8,7 +8,7 @@ class Resume extends Component {
     return (
       <>
         <Header />
-        <h1>Coming Soon!</h1>
+        <h1 className="resume-header">Coming Soon!</h1>
         <Footer />
       </>
     )
