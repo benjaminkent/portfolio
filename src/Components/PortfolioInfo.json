@@ -1,8 +1,86 @@
 [
   {
-    "shopping": {
+    "one": {
+      "title": "shopping",
       "imageURL": "./images/shopping.png",
-      "description": "Generic Shopping Site"
+      "description": "Shopping Site Template"
+    }
+  },
+  {
+    "two": {
+      "title": "photo gallery",
+      "imageURL": "./images/photo-gallery.png",
+      "description": "Photo Gallery"
+    }
+  },
+  {
+    "three": {
+      "title": "octodex",
+      "imageURL": "./images/octodex.png",
+      "description": "Replicate GitHub Octodex"
+    }
+  },
+  {
+    "four": {
+      "title": "weather",
+      "imageURL": "./images/weather.png",
+      "description": "Check Your Weather!"
+    }
+  },
+  {
+    "five": {
+      "title": "color picker",
+      "imageURL": "./images/color-picker.png",
+      "description": "A Color Picker"
+    }
+  },
+  {
+    "six": {
+      "title": "movies",
+      "imageURL": "./images/movies.png",
+      "description": "90's Style Movies Listings"
+    }
+  },
+  {
+    "seven": {
+      "title": "minesweeper",
+      "imageURL": "./images/minesweeper.png",
+      "description": "Classic Minesweeper Game"
+    }
+  },
+  {
+    "eight": {
+      "title": "crypto tracker",
+      "imageURL": "./images/crypto.png",
+      "description": "Crypto-Currency Tracker"
+    }
+  },
+  {
+    "nine": {
+      "title": "black jack",
+      "imageURL": "./images/blackjack.png",
+      "description": "BlackJack Game"
+    }
+  },
+  {
+    "ten": {
+      "title": "roshambo",
+      "imageURL": "./images/roshambo.png",
+      "description": "Rock, Paper, Scissors!"
+    }
+  },
+  {
+    "eleven": {
+      "title": "articles",
+      "imageURL": "./images/articles.png",
+      "description": "News Article Layout"
+    }
+  },
+  {
+    "twelve": {
+      "title": "tic tac toe",
+      "imageURL": "./images/tictactoe.png",
+      "description": "Game of Tic-Tac-Toe"
     }
   }
 ]

@@ -13,12 +13,12 @@ class PortfolioItems extends Component {
             <ul className="portfolio-items">
               <li
                 style={{
-                  backgroundImage: `url(${PortfolioInfo[0].shopping.imageURL})`
+                  backgroundImage: `url(${PortfolioInfo[0].one.imageURL})`
                 }}
                 className="portfolio-image"
               >
                 <p className="portfolio-description">
-                  {PortfolioInfo[0].shopping.description}
+                  {PortfolioInfo[0].one.description}
                 </p>
               </li>
             </ul>
