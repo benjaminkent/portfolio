@@ -2,32 +2,22 @@ import React, { Component } from 'react'
 
 class Header extends Component {
   state = {
-    class: 'true'
+    class: ''
   }
 
   _openMenu = () => {
     this.setState({
-      class: 'false'
+      class: 'open'
     })
   }
 
   _hideMenu = () => {
     this.setState({
-      class: 'true'
+      class: 'hide'
     })
   }
 
   render() {
-    let menuClass = 'normal'
-
-    if (this.state.class === 'true') {
-      menuClass = 'toggle'
-    }
-
-    if (this.state.class === 'false') {
-      menuClass = 'normal'
-    }
-
     return (
       <>
         <header className="header">
@@ -46,7 +36,7 @@ class Header extends Component {
             </li>
           </nav>
         </header>
-        <section className={`${menuClass} menu`}>
+        <section className={`${this.state.class} menu`}>
           <p onClick={this._hideMenu} className="menu-x">
             X
           </p>
