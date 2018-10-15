@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Data from './Data.json'
+import PortfolioInfo from './PortfolioInfo.json'
 
 class PortfolioItems extends Component {
   render() {
@@ -9,13 +9,25 @@ class PortfolioItems extends Component {
           <h1 className="portfolio-head">
             Check out some of the projects I've created!
           </h1>
-          <main className="portfolio-items">
-            <img
-              src={Data[0].shopping.imageURL}
+          <main className="portfolio-main">
+            <ul className="portfolio-items">
+              <li
+                style={{
+                  backgroundImage: `url(${PortfolioInfo[0].shopping.imageURL})`
+                }}
+                className="portfolio-image"
+              >
+                <p className="portfolio-description">
+                  {PortfolioInfo[0].shopping.description}
+                </p>
+              </li>
+            </ul>
+            {/* <img
+              src={PortfolioInfo[0].shopping.imageURL}
               className="portfolio-image shopping"
-              alt="Shopping website"
-            />
-            <img
+              alt="portfolio website screenshot"
+            /> */}
+            {/* <img
               src="./images/photo-gallery.png"
               className="portfolio-image"
               alt="gallery website"
@@ -69,7 +81,7 @@ class PortfolioItems extends Component {
               src="./images/tictactoe.png"
               className="portfolio-image"
               alt="tictactoe website"
-            />
+            /> */}
           </main>
         </section>
       </>
