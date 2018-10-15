@@ -34,8 +34,7 @@ class Languages extends Component {
             <img className="language" alt="CSS logo" src="./images/css.png" />
           </div>
           <p className="skills-lang">
-            In order: React, React Native, Ruby, Rails, JavaScript, HTML5 and
-            CSS3
+            In order: React, Ruby, Rails, Phaser, JavaScript, HTML5 and CSS3
           </p>
         </section>
       </>
