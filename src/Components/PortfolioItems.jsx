@@ -11,16 +11,18 @@ class PortfolioItems extends Component {
           </h1>
           <main className="portfolio-main">
             <ul className="portfolio-items">
-              <li
-                style={{
-                  backgroundImage: `url(${PortfolioInfo[0].one.imageURL})`
-                }}
-                className="portfolio-image"
-              >
-                <p className="portfolio-description">
-                  {PortfolioInfo[0].one.description}
-                </p>
-              </li>
+              {PortfolioInfo.map(card => {
+                return (
+                  <li
+                    style={{
+                      backgroundImage: `url(${card.imageURL})`
+                    }}
+                    className="portfolio-image"
+                  >
+                    <p className="portfolio-description">{card.description}</p>
+                  </li>
+                )
+              })}
             </ul>
             {/* <img
               src={PortfolioInfo[0].shopping.imageURL}
