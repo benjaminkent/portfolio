@@ -27,7 +27,15 @@ class Header extends Component {
             </li>
             <li className="big-header">Home</li>
             <li className="big-header">Portfolio</li>
-            <li className="big-header">Blog</li>
+            <li className="big-header">
+              <a
+                href="https://medium.com/@benjaminjehl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Blog
+              </a>
+            </li>
             <li className="big-header">Résumé</li>
             <li onClick={this._openMenu} className="hamburger">
               <div />
