@@ -22,6 +22,67 @@ class AboutMe extends Component {
               I would make a good fit for your Web Development team at: +1 (260)
               438-4562 or ben@benjaminkent.io.
             </p>
+            <ul className="social-media">
+              <li>
+                <a
+                  href="https://github.com/benjaminkent?tab=repositories"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./images/github.png"
+                    className="social-icon"
+                    alt="social media icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/benjaminkentjehl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./images/linkedin.png"
+                    className="social-icon"
+                    alt="social media icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/benjaminkent7/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./images/instagram.png"
+                    className="social-icon"
+                    alt="social media icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/BenjaminJehl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./images/twitter.png"
+                    className="social-icon"
+                    alt="social media icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <img
+                  src="./images/slack.png"
+                  className="social-icon"
+                  alt="social media icon"
+                />
+              </li>
+            </ul>
           </div>
         </div>
       </>

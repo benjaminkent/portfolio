@@ -17,3 +17,16 @@
     font-size: 1.5rem;
   }
 }
+
+.social-media {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 0;
+
+  .social-icon {
+    height: 2rem;
+    margin: 0 0.5rem;
+  }
+}
