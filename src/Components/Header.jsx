@@ -28,7 +28,7 @@ class Header extends Component {
             <li className="big-header">Home</li>
             <li className="big-header">Portfolio</li>
             <li className="big-header">Blog</li>
-            <li className="big-header contact">ben@benjaminkent.io</li>
+            <li className="big-header">Résumé</li>
             <li onClick={this._openMenu} className="hamburger">
               <div />
               <div />
@@ -45,6 +45,7 @@ class Header extends Component {
               <li>Home</li>
               <li>Portfolio</li>
               <li>Blog</li>
+              <li>Résumé</li>
               <li className="menu-contact">+1 (260) 438-4562</li>
               <li className="menu-contact">ben@benjaminkent.io</li>
             </ul>
