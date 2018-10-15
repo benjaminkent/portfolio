@@ -29,22 +29,34 @@ class Header extends Component {
               </Link>
             </li>
             <li className="big-header">
-              <Link to="/">Home</Link>
+              <Link className="link" title="Take Me Home!" to="/">
+                Home
+              </Link>
             </li>
             <li className="big-header">
-              <Link to="/portfolio">Portfolio</Link>
+              <Link
+                className="link"
+                title="Check out the Portfolio"
+                to="/portfolio"
+              >
+                Portfolio
+              </Link>
+            </li>
+            <li className="big-header">
+              <Link className="link" title="See the Resume" to="/resume">
+                Résumé
+              </Link>
             </li>
             <li className="big-header">
               <a
+                className="link"
+                title="Blog Time!"
                 href="https://medium.com/@benjaminjehl"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Blog
               </a>
-            </li>
-            <li className="big-header">
-              <Link to="/resume">Résumé</Link>
             </li>
             <li onClick={this._openMenu} className="hamburger">
               <div />
@@ -60,13 +72,23 @@ class Header extends Component {
           <nav>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link className="link" to="/">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/portfolio">Portfolio</Link>
+                <Link className="link" to="/portfolio">
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link className="link" to="/resume">
+                  Résumé
+                </Link>
               </li>
               <li>
                 <a
+                  className="link"
                   href="https://medium.com/@benjaminjehl"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -74,14 +96,15 @@ class Header extends Component {
                   Blog
                 </a>
               </li>
-              <li>
-                <Link to="/resume">Résumé</Link>
+              <li className="menu-contact">
+                <a className="link" href="tel://12604384562">
+                  +1 (260) 438-4562
+                </a>
               </li>
               <li className="menu-contact">
-                <a href="tel://12604384562">+1 (260) 438-4562</a>
-              </li>
-              <li className="menu-contact">
-                <a href="mailto:ben@benjaminkent.io">ben@benjaminkent.io</a>
+                <a className="link" href="mailto:ben@benjaminkent.io">
+                  ben@benjaminkent.io
+                </a>
               </li>
             </ul>
           </nav>
