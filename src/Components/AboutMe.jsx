@@ -18,9 +18,11 @@ class AboutMe extends Component {
               and have implemented CSS frameworks like bootstrap and Bulma to
               create websites as well. I am extremely excited about where the
               tech industry is heading and look forward to the many challenges
-              and breakthroughs that lie before us. Please reach out to learn if
-              I would make a good fit for your Web Development team at: +1 (260)
-              438-4562 or ben@benjaminkent.io.
+              and breakthroughs that lie before us. When I'm not coding, I enjoy
+              playing guitar, sports, cooking, traveling... and learning how to
+              be a better Web Developer! Please reach out to learn if I would
+              make a good fit for your team at: +1 (260) 438-4562 or
+              ben@benjaminkent.io.
             </p>
             <ul className="social-media">
               <li>
