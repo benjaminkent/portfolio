@@ -15,9 +15,6 @@ class App extends Component {
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/resume" component={Resume} />
           </Switch>
-          {/* <Home /> */}
-          {/* <Portfolio /> */}
-          {/* <Resume /> */}
         </div>
       </Router>
     )

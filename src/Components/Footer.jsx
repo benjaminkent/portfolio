@@ -9,7 +9,16 @@ class Footer extends Component {
             <p>
               Made with <i class="fas fa-heart" /> in St Petersburg, FL.
             </p>
-            <p>2018 Benjamin Kent Jehl, benjaminkent.io</p>
+            <p>
+              2018 Benjamin Kent Jehl,{' '}
+              <a
+                href="http://benjaminkent.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                benjaminkent.io
+              </a>
+            </p>
           </footer>
         </section>
       </>
