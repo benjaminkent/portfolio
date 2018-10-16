@@ -8,7 +8,11 @@ class Resume extends Component {
     return (
       <>
         <Header />
-        <h1 className="resume-header">Coming Soon!</h1>
+        <section className="resume-section">
+          <main className="resume-container">
+            <img className="resume" src="./images/resume.png" alt="resume" />
+          </main>
+        </section>
         <Footer />
       </>
     )

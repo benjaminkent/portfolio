@@ -1,6 +1,41 @@
-.resume-header {
-  text-align: center;
-  padding: 25rem 0;
+.resume-container {
   background-color: #eff1f4;
-  margin: 0;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+}
+
+.resume {
+  height: 65rem;
+  margin: 2rem 0;
+}
+
+@media (max-width: 850px) {
+  .resume {
+    height: 50rem;
+    margin: 3rem 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .resume {
+    height: 40rem;
+    margin: 5.5rem 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .resume {
+    height: 30rem;
+    margin: 10rem 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .resume {
+    height: 25rem;
+    margin: 13rem 0;
+  }
 }
