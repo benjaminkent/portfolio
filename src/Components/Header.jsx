@@ -97,13 +97,13 @@ class Header extends Component {
                 </a>
               </li>
               <li className="menu-contact">
-                <a className="link" href="tel://12604384562">
+                <a className="link contact" href="tel://12604384562">
                   +1 (260) 438-4562
                 </a>
               </li>
               <li className="menu-contact">
-                <a className="link" href="mailto:ben@benjaminkent.io">
-                  ben@benjaminkent.io
+                <a className="link contact" href="mailto:ben@benjaminkent.io">
+                  benjamin.k.jehl@gmail.com
                 </a>
               </li>
             </ul>

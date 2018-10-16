@@ -11,13 +11,7 @@ class Footer extends Component {
             </p>
             <p>
               2018 Benjamin Kent Jehl,{' '}
-              <a
-                href="http://benjaminkent.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                benjaminkent.io
-              </a>
+              <a href="http://benjaminkent.io/">benjaminkent.io</a>
             </p>
           </footer>
         </section>

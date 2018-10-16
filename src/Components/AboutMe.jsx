@@ -22,7 +22,7 @@ class AboutMe extends Component {
               playing guitar, sports, cooking, traveling... and learning how to
               be a better Web Developer! Please reach out to learn if I would
               make a good fit for your team at: +1 (260) 438-4562 or
-              ben@benjaminkent.io.
+              benjamin.k.jehl@gmail.com.
             </p>
             <ul className="social-media">
               <li>
