@@ -53,6 +53,21 @@
   text-decoration: none;
 }
 
+.my-repo {
+  height: 1rem;
+  padding: 0 1px;
+}
+
+.repositories {
+  color: #212227;
+  text-decoration: underline;
+}
+
+.repo {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 @media (max-width: 350px) {
   .portfolio-image {
     height: 10.9rem;
