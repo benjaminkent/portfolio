@@ -10,7 +10,30 @@ class Resume extends Component {
         <Header />
         <section className="resume-section">
           <main className="resume-container">
-            <img className="resume" src="./images/resume.png" alt="resume" />
+            <h3 className="pdf-header">
+              <a
+                title="Benjamin Kent Jehl fancy PDF resume"
+                className="pdf"
+                href="./documents/BenjaminKentJehlResume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Click here to view PDF
+                {/* <img
+                  className="pdf-icon"
+                  src="./images/pdf-icon.png"
+                  alt="pdf icon"
+                /> */}
+              </a>
+            </h3>
+            <a
+              title="Benjamin Kent Jehl fancy PDF resume"
+              href="./documents/BenjaminKentJehlResume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="resume" src="./images/resume.png" alt="resume" />
+            </a>
           </main>
         </section>
         <Footer />

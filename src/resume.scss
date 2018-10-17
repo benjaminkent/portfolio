@@ -4,12 +4,30 @@
 
 .resume-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .resume {
   height: 65rem;
   margin: 2rem 0;
+}
+
+.pdf {
+  color: #17202a;
+  text-decoration: none;
+}
+
+.pdf-header {
+  margin: 1rem 0 0 0;
+}
+
+.pdf-icon {
+  height: 3.5rem;
+}
+
+a.pdf:hover {
+  color: #f7a50e;
 }
 
 @media (max-width: 850px) {
