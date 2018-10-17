@@ -14,7 +14,7 @@ class Resume extends Component {
               <a
                 title="Benjamin Kent Jehl fancy PDF resume"
                 className="pdf"
-                href="./documents/BenjaminKentJehlResume.pdf"
+                href="https://drive.google.com/file/d/1By7gvi8FG04uolmObkDAOZudA6IrjayC/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -28,7 +28,7 @@ class Resume extends Component {
             </h3>
             <a
               title="Benjamin Kent Jehl fancy PDF resume"
-              href="./documents/BenjaminKentJehlResume.pdf"
+              href="https://drive.google.com/file/d/1By7gvi8FG04uolmObkDAOZudA6IrjayC/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
