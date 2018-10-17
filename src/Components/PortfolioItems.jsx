@@ -7,7 +7,7 @@ class PortfolioItems extends Component {
       <>
         <section>
           <h1 className="portfolio-head">
-            Check out some of the projects I've created!
+            Check out some of the apps I've created!
           </h1>
           <h2 className="repo">
             You can see all the code in my{' '}
