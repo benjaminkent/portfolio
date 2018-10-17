@@ -12,7 +12,7 @@ class Resume extends Component {
           <main className="resume-container">
             <h3 className="pdf-header">
               <a
-                title="Benjamin Kent Jehl fancy PDF resume"
+                title="Fancy Resume. Click it, Read it, Love it!"
                 className="pdf"
                 href="https://drive.google.com/file/d/1By7gvi8FG04uolmObkDAOZudA6IrjayC/view?usp=sharing"
                 target="_blank"
@@ -27,7 +27,7 @@ class Resume extends Component {
               </a>
             </h3>
             <a
-              title="Benjamin Kent Jehl fancy PDF resume"
+              title="Hire me!"
               href="https://drive.google.com/file/d/1By7gvi8FG04uolmObkDAOZudA6IrjayC/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
