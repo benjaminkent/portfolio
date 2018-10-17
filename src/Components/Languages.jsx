@@ -32,7 +32,7 @@ class Languages extends Component {
             />
             <img className="language" alt="HTML logo" src="./images/html.png" />
             <img className="language" alt="CSS logo" src="./images/css.png" />
-            <img className="language" alt="CSS logo" src="./images/sass.png" />
+            <img className="language" alt="SCSS logo" src="./images/sass.png" />
           </div>
           <p className="skills-lang">
             In order: React, Ruby, Rails, Phaser, JavaScript, HTML5, CSS3 and
