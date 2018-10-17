@@ -21,8 +21,16 @@ class AboutMe extends Component {
               and breakthroughs that lie before us. When I'm not coding, I enjoy
               playing guitar, sports, cooking, traveling... and learning how to
               be a better Web Developer! Please reach out to learn if I would
-              make a good fit for your team at: +1 (260) 438-4562 or
-              benjamin.k.jehl@gmail.com.
+              make a good fit for your team at:{' '}
+              <a className="about-contact" href="tel://12604384562">
+                +1 (260) 438-4562
+              </a>{' '}
+              or
+              <a className="about-contact" href="mailto:ben@benjaminkent.io">
+                {' '}
+                benjamin.k.jehl@gmail.com
+              </a>
+              .
             </p>
             <ul className="social-media">
               <li>
