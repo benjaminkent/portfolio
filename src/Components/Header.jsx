@@ -28,36 +28,38 @@ class Header extends Component {
                 <img className="logo" src="./images/logo.png" alt="logo" />
               </Link>
             </li>
-            <li className="big-header">
-              <Link className="link" title="Take Me Home!" to="/">
-                Home
-              </Link>
-            </li>
-            <li className="big-header">
-              <Link
-                className="link"
-                title="Check out the Portfolio"
-                to="/portfolio"
-              >
-                Portfolio
-              </Link>
-            </li>
-            <li className="big-header">
-              <Link className="link" title="See the Resume" to="/resume">
-                Résumé
-              </Link>
-            </li>
-            <li className="big-header">
-              <a
-                className="link"
-                title="Blog Time!"
-                href="https://medium.com/@benjaminjehl"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Blog
-              </a>
-            </li>
+            <div className="big-header-links">
+              <li className="big-header">
+                <Link className="link" title="Take Me Home!" to="/">
+                  Home
+                </Link>
+              </li>
+              <li className="big-header">
+                <Link
+                  className="link"
+                  title="Check out the Portfolio"
+                  to="/portfolio"
+                >
+                  Portfolio
+                </Link>
+              </li>
+              <li className="big-header">
+                <Link className="link" title="See the Resume" to="/resume">
+                  Résumé
+                </Link>
+              </li>
+              <li className="big-header">
+                <a
+                  className="link"
+                  title="Blog Time!"
+                  href="https://medium.com/@benjaminjehl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Blog
+                </a>
+              </li>
+            </div>
             <li onClick={this._openMenu} className="hamburger">
               <div />
               <div />

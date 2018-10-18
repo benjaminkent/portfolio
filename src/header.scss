@@ -25,6 +25,19 @@ header {
   }
 }
 
+.big-header-links {
+  display: flex;
+}
+
+.big-header-links li {
+  padding: 0.6rem 2rem 0 2rem;
+}
+
+nav.big-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .hide {
   display: none;
 }
@@ -74,5 +87,17 @@ header {
 }
 
 .logo {
-  height: 2.5rem;
+  height: 3rem;
+}
+
+@media (min-width: 1300px) {
+  .big-header-links li {
+    padding: 0.6rem 4rem 0 4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo {
+    height: 2.5rem;
+  }
 }
