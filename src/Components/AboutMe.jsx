@@ -42,7 +42,7 @@ class AboutMe extends Component {
                   <img
                     src="./images/github.png"
                     className="social-icon"
-                    alt="social media icon"
+                    alt="github logo"
                   />
                 </a>
               </li>
@@ -55,7 +55,7 @@ class AboutMe extends Component {
                   <img
                     src="./images/linkedin.png"
                     className="social-icon"
-                    alt="social media icon"
+                    alt="linkedin logo"
                   />
                 </a>
               </li>
@@ -68,7 +68,7 @@ class AboutMe extends Component {
                   <img
                     src="./images/instagram.png"
                     className="social-icon"
-                    alt="social media icon"
+                    alt="instagram logo"
                   />
                 </a>
               </li>
@@ -81,7 +81,7 @@ class AboutMe extends Component {
                   <img
                     src="./images/twitter.png"
                     className="social-icon"
-                    alt="social media icon"
+                    alt="twitter logo"
                   />
                 </a>
               </li>
@@ -89,7 +89,7 @@ class AboutMe extends Component {
                 <img
                   src="./images/slack.png"
                   className="social-icon"
-                  alt="social media icon"
+                  alt="slack logo"
                 />
               </li>
             </ul>
