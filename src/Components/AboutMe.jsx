@@ -6,22 +6,21 @@ class AboutMe extends Component {
       <>
         <div>
           <div className="about-me">
-            <h1>Hello!</h1>
             <p className="about-text">
-              My name is Benjamin Kent Jehl and I am a Full Stack Web Developer
-              in the Tampa Bay area. A former Financial Advisor, I have recently
-              followed my passion of the Tech Industry and learned the skills to
-              write full stack web applications. I am passionate about creating
-              beautiful, modern websites and enjoy the challenges that come with
-              writing computer programs. As with this website, I tend to write
-              all of the code myself from scratch, however I am familiar with
-              and have implemented CSS frameworks like bootstrap and Bulma to
-              create websites as well. I am extremely excited about where the
-              tech industry is heading and look forward to the many challenges
-              and breakthroughs that lie before us. When I'm not coding, I enjoy
-              playing guitar, sports, cooking, traveling... and learning how to
-              be a better Web Developer! Please reach out to learn if I would
-              make a good fit for your team at:{' '}
+              Located in the Tampa Bay Area and a former Financial Advisor, I
+              have recently followed my passion of the Tech Industry and learned
+              the skills that enable me to write full stack web applications. I
+              am passionate about creating beautiful, modern websites and enjoy
+              the challenges that come with writing computer programs. As with
+              this website, I tend to write all of the code myself from scratch,
+              however I am familiar with and have implemented CSS frameworks
+              like bootstrap and Bulma to create websites as well. I am
+              extremely excited about where the tech industry is heading and
+              look forward to the many challenges and breakthroughs that lie
+              before us. When I'm not coding, I enjoy playing guitar, sports,
+              cooking, traveling... and learning how to be a better Web
+              Developer! Please reach out to learn if I would make a good fit
+              for your team at:{' '}
               <a className="about-contact" href="tel://12604384562">
                 +1.260.438.4562
               </a>{' '}
