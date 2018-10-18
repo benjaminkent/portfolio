@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
-import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import {
+  HashRouter as Router,
+  Route,
+  Link,
+  NavLink,
+  Switch
+} from 'react-router-dom'
 
 import Home from './Components/Home'
 import Portfolio from './Components/Portfolio'

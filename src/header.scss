@@ -86,6 +86,11 @@ nav.big-nav {
   transition: 0.4s all ease-in-out;
 }
 
+.active {
+  color: $primary-orange;
+  font-weight: 500;
+}
+
 .logo {
   height: 3rem;
 }

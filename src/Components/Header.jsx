@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  NavLink,
+  Switch
+} from 'react-router-dom'
 
 class Header extends Component {
   state = {
@@ -24,29 +30,29 @@ class Header extends Component {
         <header className="header">
           <nav className="big-nav">
             <li>
-              <Link to="/">
+              <NavLink to="/">
                 <img className="logo" src="./images/logo.png" alt="logo" />
-              </Link>
+              </NavLink>
             </li>
             <div className="big-header-links">
               <li className="big-header">
-                <Link className="link" title="Take Me Home!" to="/">
+                <NavLink className="link" title="Take Me Home!" exact to="/">
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li className="big-header">
-                <Link
+                <NavLink
                   className="link"
                   title="Check out the Portfolio"
                   to="/portfolio"
                 >
                   Portfolio
-                </Link>
+                </NavLink>
               </li>
               <li className="big-header">
-                <Link className="link" title="See the Resume" to="/resume">
+                <NavLink className="link" title="See the Resume" to="/resume">
                   Résumé
-                </Link>
+                </NavLink>
               </li>
               <li className="big-header">
                 <a
@@ -74,19 +80,19 @@ class Header extends Component {
           <nav>
             <ul>
               <li>
-                <Link className="link" to="/">
+                <NavLink className="link" to="/">
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link className="link" to="/portfolio">
+                <NavLink className="link" to="/portfolio">
                   Portfolio
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link className="link" to="/resume">
+                <NavLink className="link" to="/resume">
                   Résumé
-                </Link>
+                </NavLink>
               </li>
               <li>
                 <a
