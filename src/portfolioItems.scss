@@ -1,5 +1,5 @@
 .portfolio-head {
-  color: #212227;
+  color: $primary-black;
   text-align: center;
   padding: 0 1rem 1rem 1rem;
 }
@@ -34,7 +34,7 @@
 
 .portfolio-description {
   text-align: center;
-  background-color: #212227;
+  background-color: $primary-black;
   color: #d5dfef;
   margin: 0;
   padding: 2.5rem 0;
@@ -59,7 +59,7 @@
 }
 
 .repositories {
-  color: #212227;
+  color: $primary-black;
   text-decoration: underline;
 }
 
