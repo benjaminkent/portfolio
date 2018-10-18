@@ -22,11 +22,11 @@ p.headshot-aboutme {
 }
 
 .headshot-container {
-  height: 15rem;
+  height: 20.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 10rem;
+  padding-bottom: 0;
 }
 
 .headshot-container::after {
@@ -41,6 +41,16 @@ p.headshot-aboutme {
   position: absolute;
   z-index: -1;
   height: 25rem;
+}
+
+.about-me-links {
+  color: $primary-black;
+  text-decoration: underline;
+}
+
+.about-me-links:hover {
+  color: $primary-orange;
+  transition: 0.4s all ease-in-out;
 }
 
 .main {
