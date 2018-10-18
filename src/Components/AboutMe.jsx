@@ -23,7 +23,7 @@ class AboutMe extends Component {
               be a better Web Developer! Please reach out to learn if I would
               make a good fit for your team at:{' '}
               <a className="about-contact" href="tel://12604384562">
-                +1 (260) 438-4562
+                +1.260.438.4562
               </a>{' '}
               or
               <a className="about-contact" href="mailto:ben@benjaminkent.io">
