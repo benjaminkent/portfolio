@@ -35,8 +35,8 @@ class Languages extends Component {
             />
           </div>
           <p className="skills-lang">
-            In order: React, Ruby, Rails, Phaser, JavaScript, HTML5, CSS3 and
-            SASS
+            In order: React, Ruby, Rails, JavaScript, SASS, HTML5, CSS3 and
+            Phaser
           </p>
         </section>
       </>
