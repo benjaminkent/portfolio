@@ -19,11 +19,6 @@ class Resume extends Component {
                 rel="noopener noreferrer"
               >
                 Click here to view PDF
-                {/* <img
-                  className="pdf-icon"
-                  src="./images/pdf-icon.png"
-                  alt="pdf icon"
-                /> */}
               </a>
             </h3>
             <a
