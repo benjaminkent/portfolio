@@ -89,3 +89,9 @@
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 700px) {
+  .portfolio-description {
+    opacity: 0.8;
+  }
+}
