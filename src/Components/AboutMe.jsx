@@ -11,11 +11,13 @@ class AboutMe extends Component {
               have recently followed my passion of the Tech Industry and learned
               the skills that enable me to write full stack web applications. I
               am passionate about creating beautiful, modern websites and enjoy
-              the challenges that come with writing computer programs. As with
-              this website, I tend to write all of the code myself from scratch,
-              however I am familiar with and have implemented CSS frameworks
-              like bootstrap and Bulma to create websites as well. I am
-              extremely excited about where the tech industry is heading and
+              the challenges that come with writing computer programs.
+            </p>
+            <p className="about-text-next">
+              As with this website, I tend to write all of the code myself from
+              scratch, however I am familiar with and have implemented CSS
+              frameworks like bootstrap and Bulma to create websites as well. I
+              am extremely excited about where the tech industry is heading and
               look forward to the many challenges and breakthroughs that lie
               before us. When I'm not coding, I enjoy playing guitar, sports,
               cooking, traveling... and learning how to be a better Web

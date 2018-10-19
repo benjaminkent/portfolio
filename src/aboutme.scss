@@ -1,7 +1,6 @@
 .about-me {
   margin-top: 2rem;
   color: #212227;
-  font-family: 'Raleway', sans-serif;
   padding: 2rem;
   background-image: none;
   display: flex;
@@ -17,6 +16,17 @@
     font-size: 1.5rem;
     line-height: 2.3rem;
   }
+}
+
+p.about-text-next {
+  color: #212227;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+}
+
+.about-text-next::first-letter {
+  padding-left: 1.5rem;
 }
 
 .about-text::first-letter {
