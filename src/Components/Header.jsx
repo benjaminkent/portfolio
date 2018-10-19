@@ -79,41 +79,29 @@ class Header extends Component {
           </p>
           <nav>
             <ul>
-              <li>
-                <NavLink className="link" exact to="/">
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink className="link" to="/portfolio">
-                  Portfolio
-                </NavLink>
-              </li>
-              <li>
-                <NavLink className="link" to="/resume">
-                  Résumé
-                </NavLink>
-              </li>
-              <li>
-                <a
-                  className="link"
-                  href="https://medium.com/@benjaminjehl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Blog
-                </a>
-              </li>
-              <li className="menu-contact">
-                <a className="link contact" href="tel://12604384562">
-                  +1 (260) 438-4562
-                </a>
-              </li>
-              <li className="menu-contact">
-                <a className="link contact" href="mailto:ben@benjaminkent.io">
-                  benjamin.k.jehl@gmail.com
-                </a>
-              </li>
+              <NavLink className="link" exact to="/">
+                <li>Home</li>
+              </NavLink>
+              <NavLink className="link" to="/portfolio">
+                <li>Portfolio</li>
+              </NavLink>
+              <NavLink className="link" to="/resume">
+                <li>Résumé</li>
+              </NavLink>
+              <a
+                className="link"
+                href="https://medium.com/@benjaminjehl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <li>Blog</li>
+              </a>
+              <a className="link contact" href="tel://12604384562">
+                <li className="menu-contact">+1 (260) 438-4562</li>
+              </a>
+              <a className="link contact" href="mailto:ben@benjaminkent.io">
+                <li className="menu-contact">benjamin.k.jehl@gmail.com</li>
+              </a>
             </ul>
           </nav>
         </section>
