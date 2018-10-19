@@ -43,14 +43,14 @@ class Header extends Component {
               <li className="big-header">
                 <NavLink
                   className="link"
-                  title="Check out the Portfolio"
+                  title="Check out my Portfolio"
                   to="/portfolio"
                 >
                   Portfolio
                 </NavLink>
               </li>
               <li className="big-header">
-                <NavLink className="link" title="See the Resume" to="/resume">
+                <NavLink className="link" title="View my Resume" to="/resume">
                   Résumé
                 </NavLink>
               </li>
