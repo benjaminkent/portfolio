@@ -37,6 +37,7 @@ class AboutMe extends Component {
                   href="https://github.com/benjaminkent?tab=repositories"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="GitHub Repo"
                 >
                   <img
                     src="./images/github.png"
@@ -50,6 +51,7 @@ class AboutMe extends Component {
                   href="https://www.linkedin.com/in/benjaminkentjehl"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Transport to my LinkedIn page"
                 >
                   <img
                     src="./images/linkedin.png"
@@ -63,6 +65,7 @@ class AboutMe extends Component {
                   href="https://www.instagram.com/benjaminkent7/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="See all of my awesome photography skills.."
                 >
                   <img
                     src="./images/instagram.png"
@@ -76,6 +79,7 @@ class AboutMe extends Component {
                   href="https://twitter.com/BenjaminJehl"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Tweet Tweet"
                 >
                   <img
                     src="./images/twitter.png"
