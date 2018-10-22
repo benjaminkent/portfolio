@@ -63,6 +63,12 @@
   text-decoration: underline;
 }
 
+.repositories:hover {
+  color: $primary-orange;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
 .repo {
   font-size: 1.2rem;
   text-align: center;
