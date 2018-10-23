@@ -9,21 +9,21 @@ class PortfolioItems extends Component {
           <h1 className="portfolio-head">
             Check out some of the apps I've created!
           </h1>
-          <a
-            href="https://github.com/benjaminkent?tab=repositories"
-            className="repositories"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className="repo">
+          <h2 className="repo">
+            <a
+              href="https://github.com/benjaminkent?tab=repositories"
+              className="repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               See my code{' '}
               <img
                 src="./images/github-full.png"
                 className="my-repo"
                 alt="github logo"
               />
-            </h2>
-          </a>
+            </a>
+          </h2>
           <main className="portfolio-main">
             <ul className="portfolio-items">
               {PortfolioInfo.map(card => {
