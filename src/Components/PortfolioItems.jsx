@@ -16,7 +16,7 @@ class PortfolioItems extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              See my code{' '}
+              See my code on{' '}
               <img
                 src="./images/github-full.png"
                 className="my-repo"
