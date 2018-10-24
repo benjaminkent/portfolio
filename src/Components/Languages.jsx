@@ -22,6 +22,11 @@ class Languages extends Component {
             />
             <img
               className="language"
+              alt="PostgreSQL logo"
+              src="./images/postgresql-logo.png"
+            />
+            <img
+              className="language"
               alt="JavaScript logo"
               src="./images/javascript.png"
             />
@@ -35,8 +40,8 @@ class Languages extends Component {
             />
           </div>
           <p className="skills-lang">
-            In order: React, Ruby, Rails, JavaScript, SASS, HTML5, CSS3 and
-            Phaser
+            In order: React, Ruby, Rails, PostgreSQL, JavaScript, SASS, HTML5,
+            CSS3 and Phaser
           </p>
         </section>
       </>
