@@ -3,7 +3,8 @@
     "title": "shopping",
     "imageURL": "./images/shopping.png",
     "sourceURL": "http://tubss-shopping-benjaminjehl.surge.sh/",
-    "description": "Shopping Site Template"
+    "description": "Shopping Site Template",
+    "language": "React.js, Bulma"
   },
   {
     "title": "photo gallery",

@@ -39,9 +39,10 @@ class PortfolioItems extends Component {
                       }}
                       className="portfolio-image"
                     >
-                      <p className="portfolio-description">
-                        {card.description}
-                      </p>
+                      <div className="portfolio-description">
+                        <p>{card.description}</p>
+                        <p>React.js, Bulma</p>
+                      </div>
                     </li>
                   </a>
                 )
