@@ -41,7 +41,7 @@ class PortfolioItems extends Component {
                     >
                       <div className="portfolio-description">
                         <p>{card.description}</p>
-                        <p>React.js, Bulma</p>
+                        <p>{card.language}</p>
                       </div>
                     </li>
                   </a>
