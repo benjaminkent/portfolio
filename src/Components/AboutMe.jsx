@@ -14,10 +14,12 @@ class AboutMe extends Component {
               the challenges that come with writing computer programs.
             </p>
             <p className="about-text-next">
-              As with this website, I tend to write all of the code myself from
-              scratch, however I am familiar with and have implemented CSS
-              frameworks like bootstrap and Bulma to create websites as well. I
-              am extremely excited about where the tech industry is heading and
+              This website was designed, coded and styled completely from
+              scratch by myself using React.js and Sass. With most of my
+              projects, I like to write all of the code myself from scratch,
+              however I am familiar with and have implemented CSS frameworks
+              like bootstrap and Bulma to create websites as well. I am
+              extremely excited about where the tech industry is heading and
               look forward to the many challenges and breakthroughs that lie
               before us. When I'm not coding, I enjoy playing guitar, sports,
               cooking, traveling... and learning how to be a better Web
