@@ -3,7 +3,9 @@ body {
 }
 
 header {
-  padding: 20px;
+  position: fixed;
+  width: 100%;
+  padding: 1.3rem;
   background-color: #2355aa;
   color: #d5dfef;
   box-shadow: 0px 0.5px 5px $primary-black;
@@ -16,7 +18,8 @@ header {
 
     .hamburger {
       cursor: pointer;
-      padding-top: 5px;
+      padding-top: 0.3rem;
+      padding-right: 2.55rem;
     }
 
     .hamburger div {
@@ -81,6 +84,10 @@ nav.big-nav {
       padding: 1.5rem 0;
     }
   }
+}
+
+.link:last-child {
+  padding-right: 1rem;
 }
 
 .link:hover {

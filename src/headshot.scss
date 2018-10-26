@@ -27,6 +27,7 @@ p.headshot-aboutme {
   flex-direction: column;
   align-items: center;
   padding-bottom: 0;
+  padding-top: 5.5rem;
 }
 
 .headshot-container::after {
@@ -103,6 +104,10 @@ button.second {
   button.view-work-button {
     padding: 0.7rem 0;
   }
+
+  .headshot-container {
+    padding-top: 5.7rem;
+  }
 }
 
 @media (min-width: 700px) {
@@ -116,6 +121,10 @@ button.second {
 
   img.headshot {
     margin-bottom: 0;
+  }
+
+  .headshot-container {
+    padding-top: 7rem;
   }
 }
 
