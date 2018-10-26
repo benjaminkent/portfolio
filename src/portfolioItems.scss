@@ -1,7 +1,7 @@
 .portfolio-head {
   color: $primary-black;
   text-align: center;
-  padding: 0 1rem 1rem 1rem;
+  padding: 5rem 1rem 1rem 1rem;
 }
 
 .portfolio-image {
@@ -101,6 +101,10 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+  .portfolio-head {
+    padding-top: 5.5rem;
   }
 }
 
