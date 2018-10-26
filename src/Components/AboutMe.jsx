@@ -6,6 +6,8 @@ class AboutMe extends Component {
       <>
         <div>
           <div className="about-me">
+            <h1 className="about-me-header">About Me</h1>
+            <div className="underline" />
             <p className="about-text">
               Located in the Tampa Bay Area and a former Financial Advisor, I
               have recently followed my passion of the Tech Industry and learned

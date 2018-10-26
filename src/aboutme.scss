@@ -18,6 +18,11 @@
   }
 }
 
+.underline {
+  border: 1px solid #caccce;
+  width: 100%;
+}
+
 p.about-text {
   margin-bottom: 0;
 }
@@ -28,19 +33,8 @@ p.about-text-next {
   font-size: 1.5rem;
   line-height: 2.3rem;
   margin: 0;
+  padding-top: 2rem;
 }
-
-.about-text-next::first-letter {
-  padding-left: 1.5rem;
-}
-
-.about-text::first-letter {
-  font-size: 3rem;
-  font-weight: 700;
-  padding-right: 0;
-  font-family: 'Vollkorn', serif;
-}
-
 .social-media {
   list-style: none;
   display: flex;
@@ -52,6 +46,13 @@ p.about-text-next {
     height: 2rem;
     margin: 0 0.5rem;
   }
+}
+
+h1.about-me-header {
+  align-self: flex-start;
+  margin-bottom: 0;
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
 }
 
 a.about-contact {
