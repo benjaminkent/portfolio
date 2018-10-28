@@ -24,7 +24,7 @@
 }
 
 p.about-text {
-  margin-bottom: 0;
+  margin-bottom: 3rem;
 }
 
 p.about-text-next {
@@ -32,14 +32,16 @@ p.about-text-next {
   text-align: left;
   font-size: 1.5rem;
   line-height: 2.3rem;
-  margin: 0;
+  margin-bottom: 3rem;
+  margin-top: 0;
   padding-top: 2rem;
 }
 .social-media {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
   padding: 0;
 
   .social-icon {
