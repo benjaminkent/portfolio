@@ -44,7 +44,11 @@ nav.big-nav {
 }
 
 .hide {
-  display: none;
+  margin-right: -100%;
+}
+
+.hide .open {
+  transition: 0.2s ease-in-out;
 }
 
 .contact {
@@ -61,6 +65,7 @@ nav.big-nav {
   color: #d5dfef;
   opacity: 0.93;
   z-index: 3;
+  transition: 0.4s ease-in-out;
 
   .menu-x {
     position: absolute;
