@@ -5,16 +5,16 @@ import Headshot from './Headshot'
 import AboutMe from './AboutMe'
 import Languages from './Languages'
 import Footer from './Footer'
+import ScrollToTop from './ScrollToTop'
 
 class Home extends Component {
   render() {
     return (
       <>
-        <Header />
+        <ScrollToTop />
         <Headshot />
         <AboutMe />
         <Languages />
-        <Footer />
       </>
     )
   }

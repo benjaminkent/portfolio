@@ -2,12 +2,13 @@ import React, { Component } from 'react'
 
 import Header from './Header'
 import Footer from './Footer'
+import ScrollToTop from './ScrollToTop'
 
 class Resume extends Component {
   render() {
     return (
       <>
-        <Header />
+        <ScrollToTop />
         <section className="resume-section">
           <main className="resume-container">
             <h3 className="pdf-header">
@@ -44,7 +45,6 @@ class Resume extends Component {
             </a>
           </main>
         </section>
-        <Footer />
       </>
     )
   }
