@@ -14,20 +14,33 @@ class Resume extends Component {
               <a
                 title="Fancy Resume. Click it, Read it, Love it!"
                 className="pdf"
-                href="https://drive.google.com/file/d/1vd231asOcRbf6x5rvQbE7FZGQ9OWVmIK/view?usp=sharing"
+                href="https://drive.google.com/file/d/1QvaHzj9qymsDONzJaqYwwSCWQnNPr2ZU/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Click here to view PDF
               </a>
+              <a
+                title="Not as fancy black and white resume"
+                className="pdf"
+                href="https://drive.google.com/file/d/1yt3fpI07dkRIIQJCJODI3CPFF3NhmQOC/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Click here for printer friendly PDF.
+              </a>
             </h3>
             <a
               title="Hire me!"
-              href="https://drive.google.com/file/d/1vd231asOcRbf6x5rvQbE7FZGQ9OWVmIK/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QvaHzj9qymsDONzJaqYwwSCWQnNPr2ZU/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img className="resume" src="./images/resume.png" alt="resume" />
+              <img
+                className="resume"
+                src="./images/color-resume.png"
+                alt="resume"
+              />
             </a>
           </main>
         </section>
