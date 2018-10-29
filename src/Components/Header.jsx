@@ -79,16 +79,21 @@ class Header extends Component {
           </p>
           <nav>
             <ul>
-              <NavLink className="link" exact to="/">
+              <NavLink onClick={this._hideMenu} className="link" exact to="/">
                 <li>Home</li>
               </NavLink>
-              <NavLink className="link" to="/portfolio">
+              <NavLink
+                onClick={this._hideMenu}
+                className="link"
+                to="/portfolio"
+              >
                 <li>Portfolio</li>
               </NavLink>
-              <NavLink className="link" to="/resume">
+              <NavLink onClick={this._hideMenu} className="link" to="/resume">
                 <li>Résumé</li>
               </NavLink>
               <a
+                onClick={this._hideMenu}
                 className="link"
                 href="https://medium.com/@benjaminjehl"
                 target="_blank"
@@ -96,10 +101,18 @@ class Header extends Component {
               >
                 <li>Blog</li>
               </a>
-              <a className="link contact" href="tel://12604384562">
+              <a
+                onClick={this._hideMenu}
+                className="link contact"
+                href="tel://12604384562"
+              >
                 <li className="menu-contact">+1 (260) 438-4562</li>
               </a>
-              <a className="link contact" href="mailto:ben@benjaminkent.io">
+              <a
+                onClick={this._hideMenu}
+                className="link contact"
+                href="mailto:ben@benjaminkent.io"
+              >
                 <li className="menu-contact">benjamin.k.jehl@gmail.com</li>
               </a>
             </ul>
