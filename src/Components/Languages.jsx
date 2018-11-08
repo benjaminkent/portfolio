@@ -1,6 +1,19 @@
 import React, { Component } from 'react'
+import LanguageInfo from './LanguageInfo.json'
 
 class Languages extends Component {
+  state = {
+    class: ''
+  }
+
+  _toggle = () => {
+    if (this.state.class === 'hidden') {
+      this.setState({ class: 'none' })
+    } else {
+      this.setState({ class: 'hidden' })
+    }
+  }
+
   render() {
     return (
       <>
@@ -9,78 +22,26 @@ class Languages extends Component {
             <strong>My current tool-set includes:</strong>
           </p>
           <ul className="language-container">
-            <li
-              className="lang-image"
-              style={{
-                backgroundImage: 'url(/images/react.png)'
-              }}
-            >
-              {/* <img
-                className="language"
-                alt="React logo"
-                src="./images/react.png"
-              /> */}
-              <div className="lang-description">
-                <p>React.js</p>
-              </div>
-            </li>
-            <li>
-              <img
-                className="language"
-                alt="Ruby logo"
-                src="./images/ruby.png"
-              />
-            </li>
-            <li>
-              <img
-                className="language"
-                alt="Rails logo"
-                src="./images/rails.png"
-              />
-            </li>
-            <li>
-              <img
-                className="language"
-                alt="PostgreSQL logo"
-                src="./images/postgresql-logo.png"
-              />
-            </li>
-            <li>
-              <img
-                className="language"
-                alt="JavaScript logo"
-                src="./images/javascript.png"
-              />
-            </li>
-            <li>
-              <img
-                className="language"
-                alt="SCSS logo"
-                src="./images/sass.png"
-              />
-            </li>
-            <li>
-              <img
-                className="language"
-                alt="HTML logo"
-                src="./images/html.png"
-              />
-            </li>
-            <li>
-              <img className="language" alt="CSS logo" src="./images/css.png" />
-            </li>
-            <li>
-              <img
-                className="language"
-                alt="Phaser logo"
-                src="./images/phaser.png"
-              />
-            </li>
+            {LanguageInfo.map(language => {
+              return (
+                <li
+                  className="lang-image"
+                  onClick={this._toggle}
+                  style={{
+                    backgroundImage: `url(${language.imageURL})`
+                  }}
+                >
+                  <div
+                    className={`${language.class} lang-description ${
+                      this.state.class
+                    }`}
+                  >
+                    <p>{language.language}</p>
+                  </div>
+                </li>
+              )
+            })}
           </ul>
-          <p className="skills-lang">
-            In order: React.js, Ruby, Rails, PostgreSQL, JavaScript, Sass,
-            HTML5, CSS3 and Phaser
-          </p>
         </section>
       </>
     )

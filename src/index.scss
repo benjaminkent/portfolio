@@ -68,17 +68,6 @@ html {
   .about-me {
     padding: 4rem;
   }
-
-  .language-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .language {
-    height: 10rem;
-  }
 }
 
 @media (min-width: 1000px) {

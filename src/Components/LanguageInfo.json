@@ -1,0 +1,47 @@
+[
+  {
+    "language": "React.js",
+    "imageURL": "./images/react.png",
+    "class": "react"
+  },
+  {
+    "language": "Ruby",
+    "imageURL": "./images/ruby.png",
+    "class": "ruby"
+  },
+  {
+    "language": "Rails",
+    "imageURL": "./images/rails.png",
+    "class": "rails"
+  },
+  {
+    "language": "PostgreSQL",
+    "imageURL": "./images/postgresql-logo.png",
+    "class": "postgresql"
+  },
+  {
+    "language": "JavaScript",
+    "imageURL": "./images/javascript.png",
+    "class": "javascript"
+  },
+  {
+    "language": "Sass",
+    "imageURL": "./images/sass.png",
+    "class": "sass"
+  },
+  {
+    "language": "HTML5",
+    "imageURL": "./images/html.png",
+    "class": "html"
+  },
+  {
+    "language": "CSS3",
+    "imageURL": "./images/css.png",
+    "class": "css"
+  },
+  {
+    "language": "Phaser",
+    "imageURL": "./images/phaser.png",
+    "class": "phaser"
+  }
+]

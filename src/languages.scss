@@ -2,16 +2,34 @@ p.skills {
   margin-bottom: 0;
 }
 
-.language {
-  height: 7rem;
-  padding-top: 1.5rem;
-}
-
 .lang-image {
-  height: 7rem;
-  width: 100%;
+  height: 9rem;
+  width: 9rem;
   background-size: contain;
   background-repeat: no-repeat;
+  margin: 0.3rem 0;
+}
+
+.lang-description {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.hidden {
+  opacity: 0.92;
+  transition: all 0.5s;
+}
+
+.lang-description p {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 40%;
 }
 
 .skills {
@@ -28,6 +46,48 @@ p.skills {
   padding: 0;
 }
 
+.react {
+  background-color: #81d8f7;
+}
+
+.ruby {
+  background-color: #b82c1a;
+  color: #fff;
+}
+
+.rails {
+  background-color: #c1281b;
+  color: #fff;
+}
+
+.postgresql {
+  background-color: #3c618e;
+  color: #fff;
+}
+
+.javascript {
+  background-color: #f7cb50;
+}
+
+.sass {
+  background-color: #c06c98;
+  color: #fff;
+}
+
+.html {
+  background-color: #d45736;
+  color: #fff;
+}
+
+.css {
+  background-color: #387db9;
+  color: #fff;
+}
+
+.phaser {
+  background-color: #aed9e9;
+}
+
 section.skills-section {
   background-color: $primary-gray;
   width: 100%;
@@ -38,4 +98,19 @@ section.skills-section {
   text-align: center;
   font-size: 1rem;
   padding: 2.5rem 1rem 0 1rem;
+}
+
+@media (min-width: 700px) {
+  .language-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .lang-image {
+    height: 10rem;
+    width: 10rem;
+    margin: 0.5rem;
+  }
 }
