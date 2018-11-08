@@ -22,9 +22,10 @@ class Languages extends Component {
             <strong>My current tool-set includes:</strong>
           </p>
           <ul className="language-container">
-            {LanguageInfo.map(language => {
+            {LanguageInfo.map((language, index) => {
               return (
                 <li
+                  key={index}
                   className="lang-image"
                   onClick={this._toggle}
                   style={{

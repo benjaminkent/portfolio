@@ -1,11 +1,5 @@
 import React, { Component } from 'react'
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  NavLink,
-  Switch
-} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 class Headshot extends Component {
   render() {
@@ -14,7 +8,7 @@ class Headshot extends Component {
         <section className="headshot-container">
           <img className="headshot" src="/images/square.jpg" alt="headshot" />
           <h1 className="headshot-title">Hello!</h1>
-          <p className="headshot-aboutme">
+          <div className="headshot-aboutme">
             My name is Benjamin Kent Jehl and I am a Full Stack Web Developer.
             <div className="view-work-button-section">
               <button className="view-work-button first">
@@ -36,7 +30,7 @@ class Headshot extends Component {
                 </Link>
               </button>
             </div>
-          </p>
+          </div>
         </section>
       </>
     )

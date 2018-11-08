@@ -26,9 +26,10 @@ class PortfolioItems extends Component {
           </h2>
           <main className="portfolio-main">
             <ul className="portfolio-items">
-              {PortfolioInfo.map(card => {
+              {PortfolioInfo.map((card, index) => {
                 return (
                   <a
+                    key={index}
                     href={card.sourceURL}
                     target="_blank"
                     rel="noopener noreferrer"
