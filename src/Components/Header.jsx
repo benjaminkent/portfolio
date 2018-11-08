@@ -104,14 +104,14 @@ class Header extends Component {
               <a
                 onClick={this._hideMenu}
                 className="link contact"
-                href="tel://12604384562"
+                href="tel://17276199736"
               >
-                <li className="menu-contact">+1 (260) 438-4562</li>
+                <li className="menu-contact">+1 (727) 619-9736</li>
               </a>
               <a
                 onClick={this._hideMenu}
                 className="link contact"
-                href="mailto:ben@benjaminkent.io"
+                href="mailto:benjamin.k.jehl@gmail.com"
               >
                 <li className="menu-contact">benjamin.k.jehl@gmail.com</li>
               </a>

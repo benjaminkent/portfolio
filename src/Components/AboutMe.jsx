@@ -34,11 +34,14 @@ class AboutMe extends Component {
             <p className="about-text-next">
               Please reach out to learn if I would make a good fit for your team
               at:{' '}
-              <a className="about-contact" href="tel://12604384562">
-                +1.260.438.4562
+              <a className="about-contact" href="tel://17276199736">
+                +1(727)619-9736
               </a>{' '}
               or
-              <a className="about-contact" href="mailto:ben@benjaminkent.io">
+              <a
+                className="about-contact"
+                href="mailto:benjamin.k.jehl@gmail.com"
+              >
                 {' '}
                 benjamin.k.jehl@gmail.com
               </a>
