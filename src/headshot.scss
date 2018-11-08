@@ -115,7 +115,7 @@ button.second {
     font-size: 2.5rem;
   }
 
-  p.headshot-aboutme {
+  div.headshot-aboutme {
     font-size: 1.3rem;
   }
 
@@ -129,13 +129,13 @@ button.second {
 }
 
 @media (min-width: 1000px) {
-  p.headshot-aboutme {
+  div.headshot-aboutme {
     margin-bottom: 3rem;
   }
 }
 
 @media (min-width: 1300px) {
-  p.headshot-aboutme {
+  div.headshot-aboutme {
     margin-bottom: 10rem;
   }
 }
