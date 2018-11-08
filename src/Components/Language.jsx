@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
-import LanguageInfo from './LanguageInfo.json'
 
 class Language extends Component {
   state = {
     class: ''
   }
-
   _toggle = () => {
     if (this.state.class === 'hidden') {
       this.setState({ class: 'none' })
@@ -13,6 +11,7 @@ class Language extends Component {
       this.setState({ class: 'hidden' })
     }
   }
+
   render() {
     return (
       <div>

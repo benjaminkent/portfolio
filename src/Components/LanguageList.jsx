@@ -3,6 +3,10 @@ import Language from './Language'
 import LanguageInfo from './LanguageInfo.json'
 
 class LanguageList extends Component {
+  // toggle function
+  // identifier
+  // class- flipped or not flipped
+
   render() {
     return (
       <>
@@ -14,6 +18,7 @@ class LanguageList extends Component {
             {LanguageInfo.map((language, index) => {
               return (
                 <Language
+                  key={index}
                   language={language.language}
                   image={language.imageURL}
                   class={language.class}
