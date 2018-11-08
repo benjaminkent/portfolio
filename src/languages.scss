@@ -7,6 +7,13 @@ p.skills {
   padding-top: 1.5rem;
 }
 
+.lang-image {
+  height: 7rem;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .skills {
   padding-bottom: 1rem;
   text-align: center;
@@ -17,6 +24,8 @@ p.skills {
   display: flex;
   flex-direction: column;
   align-items: center;
+  list-style: none;
+  padding: 0;
 }
 
 section.skills-section {
