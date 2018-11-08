@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import Headshot from './Headshot'
 import AboutMe from './AboutMe'
-import Languages from './Languages'
+import LanguageList from './LanguageList'
 import ScrollToTop from './ScrollToTop'
 
 class Home extends Component {
@@ -12,7 +12,7 @@ class Home extends Component {
         <ScrollToTop />
         <Headshot />
         <AboutMe />
-        <Languages />
+        <LanguageList />
       </>
     )
   }
