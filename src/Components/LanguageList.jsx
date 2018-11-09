@@ -49,8 +49,8 @@ class LanguageList extends Component {
                   selectLanguage={this.selectLanguage}
                   selectedClass={
                     index === this.state.currentlySelectedLanguageIndex
-                      ? 'hidden'
-                      : 'none'
+                      ? 'back'
+                      : 'front'
                   }
                 />
               )
