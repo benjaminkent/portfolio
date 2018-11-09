@@ -6,6 +6,29 @@ class LanguageList extends Component {
   // toggle function
   // identifier
   // class- flipped or not flipped
+  constructor(props) {
+    super(props)
+
+    this.timeout = null
+
+    this.state = {
+      currentlySelectedLanguageIndex: null
+    }
+  }
+
+  selectLanguage = index => {
+    this.setState({ currentlySelectedLanguageIndex: index })
+
+    // If there is a timeout, clear it.
+    if (this.timeout) {
+      clearTimeout(this.timeout)
+    }
+
+    // Create a new timeout and remember it
+    this.timeout = setTimeout(() => {
+      this.setState({ currentlySelectedLanguageIndex: null })
+    }, 2000)
+  }
 
   render() {
     return (
@@ -19,9 +42,16 @@ class LanguageList extends Component {
               return (
                 <Language
                   key={index}
+                  index={index}
                   language={language.language}
                   image={language.imageURL}
                   class={language.class}
+                  selectLanguage={this.selectLanguage}
+                  selectedClass={
+                    index === this.state.currentlySelectedLanguageIndex
+                      ? 'hidden'
+                      : 'none'
+                  }
                 />
               )
             })}

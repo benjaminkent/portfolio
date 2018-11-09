@@ -1,15 +1,8 @@
 import React, { Component } from 'react'
 
 class Language extends Component {
-  state = {
-    class: ''
-  }
   _toggle = () => {
-    if (this.state.class === 'hidden') {
-      this.setState({ class: 'none' })
-    } else {
-      this.setState({ class: 'hidden' })
-    }
+    this.props.selectLanguage(this.props.index)
   }
 
   render() {
@@ -24,7 +17,7 @@ class Language extends Component {
         >
           <div
             className={`${this.props.class} lang-description ${
-              this.state.class
+              this.props.selectedClass
             }`}
           >
             <p>{this.props.language}</p>
