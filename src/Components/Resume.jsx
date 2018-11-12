@@ -13,7 +13,7 @@ class Resume extends Component {
               <a
                 title="Fancy Resume. Click it, Read it, Love it!"
                 className="pdf"
-                href="https://drive.google.com/file/d/1QvaHzj9qymsDONzJaqYwwSCWQnNPr2ZU/view?usp=sharing"
+                href="https://drive.google.com/file/d/1-kMnhBe3kxPYqZBlv2m7nV8JVZrp-1nO/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -22,7 +22,7 @@ class Resume extends Component {
               <a
                 title="Not as fancy black and white resume"
                 className="pdf"
-                href="https://drive.google.com/file/d/1yt3fpI07dkRIIQJCJODI3CPFF3NhmQOC/view?usp=sharing"
+                href="https://drive.google.com/file/d/1fbpsAILQxphFHYmen9ktSLO47GlPipiL/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -31,7 +31,7 @@ class Resume extends Component {
             </h3>
             <a
               title="Hire me!"
-              href="https://drive.google.com/file/d/1QvaHzj9qymsDONzJaqYwwSCWQnNPr2ZU/view?usp=sharing"
+              href="https://drive.google.com/file/d/1-kMnhBe3kxPYqZBlv2m7nV8JVZrp-1nO/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
