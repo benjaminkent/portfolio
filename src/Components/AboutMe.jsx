@@ -104,13 +104,6 @@ class AboutMe extends Component {
                   />
                 </a>
               </li>
-              <li>
-                <img
-                  src="./images/slack.png"
-                  className="social-icon"
-                  alt="slack logo"
-                />
-              </li>
             </ul>
           </div>
         </div>
