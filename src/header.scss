@@ -6,8 +6,8 @@ header {
   position: fixed;
   width: 100%;
   padding: 1.3rem;
-  background-color: #2355aa;
-  color: #d5dfef;
+  background-color: $primary-blue;
+  color: $primary-white;
   box-shadow: 0px 0.5px 5px $primary-black;
   z-index: 2;
 
@@ -23,7 +23,7 @@ header {
     }
 
     .hamburger div {
-      border: 1.5px solid #d5dfef;
+      border: 1.5px solid $primary-white;
       width: 25px;
       margin: 5px;
     }
@@ -57,8 +57,8 @@ nav.big-nav {
   width: 75%;
   top: 0;
   height: 100%;
-  background-color: #2355aa;
-  color: #d5dfef;
+  background-color: $primary-blue;
+  color: $primary-white;
   opacity: 0.93;
   z-index: 3;
   transition: 0.4s ease-in-out;

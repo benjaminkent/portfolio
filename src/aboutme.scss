@@ -1,6 +1,6 @@
 .about-me {
   margin-top: 2rem;
-  color: #212227;
+  color: $primary-black;
   padding: 2rem;
   background-image: none;
   display: flex;
@@ -28,7 +28,7 @@ p.about-text {
 }
 
 p.about-text-next {
-  color: #212227;
+  color: $primary-black;
   text-align: left;
   font-size: 1.5rem;
   line-height: 2.3rem;

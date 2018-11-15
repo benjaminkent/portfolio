@@ -2,6 +2,7 @@ $primary-orange: #f7a50e;
 $primary-black: #212227;
 $primary-white: #d5dfef;
 $primary-gray: #eff1f4;
+$primary-blue: #2355aa;
 
 @import 'header';
 @import 'headshot';
@@ -16,7 +17,7 @@ html {
 
   a {
     text-decoration: none;
-    color: #d5dfef;
+    color: $primary-white;
   }
 }
 
