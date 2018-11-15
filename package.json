@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://benjaminkent.github.io/portfolio/",
+  "homepage": "https://www.benjaminkent.io",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.9.3",
