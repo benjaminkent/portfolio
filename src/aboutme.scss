@@ -19,7 +19,8 @@
 }
 
 .underline {
-  border: 1px solid #caccce;
+  border: 1px solid $primary-blue;
+  opacity: 0.4;
   width: 100%;
 }
 
