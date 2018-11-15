@@ -15,7 +15,7 @@
 }
 
 .pdf {
-  color: #17202a;
+  color: $primary-black;
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@
 }
 
 a.pdf:hover {
-  color: #f7a50e;
+  color: $primary-orange;
   transition: 0.4s all ease-in-out;
 }
 
