@@ -1,7 +1,7 @@
 .portfolio-head {
   color: $primary-black;
   text-align: center;
-  padding: 5rem 1rem 1rem 1rem;
+  padding: 5rem 1rem 0 1rem;
 }
 
 .portfolio-image {
@@ -80,6 +80,14 @@
 .repo {
   font-size: 1.2rem;
   text-align: center;
+}
+
+h2.repo {
+  margin-top: 0;
+}
+
+h1.portfolio-head {
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 350px) {
