@@ -24,12 +24,12 @@ class Header extends Component {
         <header className="header">
           <nav className="big-nav">
             <li>
-              <NavLink to="/">
+              <NavLink onClick={this._hideMenu} to="/">
                 <img className="logo" src="./images/logo.png" alt="logo" />
               </NavLink>
             </li>
             <div className="big-header-links">
-              <li className="big-header">
+              <li onClick={this._hideMenu} className="big-header">
                 <NavLink className="link" title="Take Me Home!" exact to="/">
                   Home
                 </NavLink>
