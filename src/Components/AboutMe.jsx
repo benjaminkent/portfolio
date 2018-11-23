@@ -12,10 +12,10 @@ class AboutMe extends Component {
               Located in the Tampa Bay Area and a former Financial Advisor, I
               have recently followed my love of the Tech Industry and learned
               the skills that enable me to write full stack web applications. I
-              am passionate about designing the technologies that will shape the
-              future. When I'm not coding, I enjoy playing guitar, sports,
-              cooking, traveling... and learning how to be a better Web
-              Developer!
+              am passionate about designing and building the technologies that
+              will shape the future. When I'm not coding, I enjoy playing
+              guitar, sports, cooking, traveling... and learning how to be a
+              better Web Developer!
             </p>
             <h1 className="about-me-header">Tech Philosophy</h1>
             <div className="underline" />

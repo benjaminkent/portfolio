@@ -38,10 +38,5 @@
     "language": "CSS3",
     "imageURL": "./images/css.png",
     "class": "css"
-  },
-  {
-    "language": "Phaser",
-    "imageURL": "./images/phaser.png",
-    "class": "phaser"
   }
 ]
