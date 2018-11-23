@@ -10,7 +10,7 @@ class AboutMe extends Component {
             <div className="underline" />
             <p className="about-text">
               Located in the Tampa Bay Area and a former Financial Advisor, I
-              have recently followed my love of the Tech Industry and learned
+              have recently followed my love of the tech industry and learned
               the skills that enable me to write full stack web applications. I
               am passionate about designing and building the technologies that
               will shape the future. When I'm not coding, I enjoy playing
