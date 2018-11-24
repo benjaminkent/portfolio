@@ -6,8 +6,8 @@ header {
   position: fixed;
   width: 100%;
   padding: 1.3rem;
-  background-color: $primary-blue;
-  color: $primary-white;
+  background-color: $main;
+  color: $letters;
   box-shadow: 0px 0.5px 5px $primary-black;
   z-index: 2;
 
@@ -23,7 +23,7 @@ header {
     }
 
     .hamburger div {
-      border: 1.5px solid $primary-white;
+      border: 1.5px solid $letters;
       width: 25px;
       margin: 5px;
     }
@@ -57,8 +57,8 @@ nav.big-nav {
   width: 75%;
   top: 0;
   height: 100%;
-  background-color: $primary-blue;
-  color: $primary-white;
+  background-color: $main;
+  color: $letters;
   opacity: 0.93;
   z-index: 3;
   transition: 0.4s ease-in-out;
@@ -92,12 +92,12 @@ nav.big-nav {
 }
 
 .link:hover {
-  color: $primary-orange;
+  color: $secondary;
   transition: 0.4s all ease-in-out;
 }
 
 .active {
-  color: $primary-orange;
+  color: $secondary;
   font-weight: 500;
 }
 

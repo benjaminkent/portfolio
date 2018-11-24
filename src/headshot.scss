@@ -3,7 +3,7 @@
   width: auto;
   margin: auto;
   border-radius: 100%;
-  border: 10px solid rgba($color: $primary-white, $alpha: 0.5);
+  border: 10px solid rgba($color: $letters, $alpha: 0.5);
 }
 
 .headshot-title {
@@ -32,7 +32,7 @@ div.headshot-aboutme {
 
 .headshot-container::after {
   content: '';
-  background: url('/images/orange-pumpkins.jpeg');
+  background: url('/images/christmas-one.jpeg');
   background-size: cover;
   opacity: 0.4;
   top: 4rem;
@@ -69,7 +69,7 @@ div.headshot-aboutme {
 }
 
 button.view-work-button {
-  background-color: $primary-orange;
+  background-color: $secondary;
   text-decoration: none;
   border: none;
   padding: 0.5rem 0;

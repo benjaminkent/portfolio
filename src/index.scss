@@ -1,13 +1,20 @@
 $primary-black: #212227;
 $primary-gray: #eff1f4;
 
-$primary-blue: #512215;
-$primary-orange: #e77935;
-$primary-white: #e1ce7a;
+// Standard Colors:
+// $main: #2355aac;
+// $secondary: #f7a50e;
+// $letters: #d5dfef;
 
-// $primary-white: #d5dfef;
-// $primary-blue: #2355aac;
-// $primary-orange: #f7a50e;
+// Thanksgiving colors:
+// $main: #512215;
+// $secondary: #e77935;
+// $letters: #e1ce7a;
+
+// Christmas Colors:
+$secondary: #a1211c;
+$main: #3f7f3d;
+$letters: #f8e27b;
 
 @import 'header';
 @import 'headshot';
@@ -22,7 +29,7 @@ html {
 
   a {
     text-decoration: none;
-    color: $primary-white;
+    color: $letters;
   }
 }
 
