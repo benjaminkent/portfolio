@@ -17,6 +17,24 @@ class AboutMe extends Component {
               guitar, sports, cooking, traveling... and learning how to be a
               better Web Developer!
             </p>
+            <p className="easter-egg">
+              Hey cool! You're checking out my code. Welcome to the extended
+              about me section. So to refresh your memory, my name is Ben. This
+              portion will be way less formal :) because really, ya know, I just
+              love writing code. Whether it's front end or back end, I just love
+              it. I left a career in finance because while I love learning about
+              markets, I wasn't happy with the industry overall. And yep, it was
+              a good job, but I knew I had to do something different with my
+              life. It was a huge risk, but I believe life is too short to be
+              trapped doing something that one doesn't enjoy. Now I'm doing
+              something I really love, and whether I make tons of money or not..
+              at least now I'm happy! Although if you are an employer and are
+              looking for a talented dev who will work his ass off, is
+              passionate about making a positive impact on the world, and will
+              continue to learn as much as possible; I would love to join your
+              team! Shoot me an email at benjamin.k.jehl@gmail.com or call me at
+              (727) 619-9736 or (260) 438-4562. Thanks for visiting my site!!
+            </p>
             <h1 className="about-me-header">Tech Philosophy</h1>
             <div className="underline" />
             <p className="about-text-next">

@@ -56,6 +56,13 @@ class LanguageList extends Component {
               )
             })}
           </ul>
+          <div>
+            <p>
+              Wow, you're still here, awesome! You're prize is this incredible
+              gif.
+            </p>
+            <img src="" alt="" />
+          </div>
         </section>
       </>
     )
