@@ -17,7 +17,7 @@ class AboutMe extends Component {
               guitar, sports, cooking, traveling... and learning how to be a
               better Web Developer!
             </p>
-            <p className="easter-egg">
+            <p className="ee">
               Hey cool! You're checking out my code. Welcome to the extended
               about me section. So to refresh your memory, my name is Ben. This
               portion will be way less formal :) because really, ya know, I just
