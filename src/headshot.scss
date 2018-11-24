@@ -6,6 +6,15 @@
   border: 10px solid rgba($color: $letters, $alpha: 0.5);
 }
 
+.hat {
+  display: block;
+  position: absolute;
+  top: 5.3rem;
+  margin: auto;
+  height: 9rem;
+  transform: translate(-10%) rotate(0.02turn);
+}
+
 .headshot-title {
   margin: 0;
   padding: 0.2rem 0 0 0;
@@ -130,16 +139,29 @@ button.second {
   .headshot-container {
     padding-top: 7rem;
   }
+
+  .hat {
+    top: 6rem;
+    height: 13rem;
+  }
 }
 
 @media (min-width: 1000px) {
   div.headshot-aboutme {
     margin-bottom: 3rem;
   }
+
+  .hat {
+    top: 10rem;
+  }
 }
 
 @media (min-width: 1300px) {
   div.headshot-aboutme {
     margin-bottom: 10rem;
+  }
+
+  .hat {
+    top: 12rem;
   }
 }

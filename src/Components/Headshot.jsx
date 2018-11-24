@@ -6,6 +6,7 @@ class Headshot extends Component {
     return (
       <>
         <section className="headshot-container">
+          <img className="hat" src="/images/santa-hat.png" alt="santa hat" />
           <img className="headshot" src="/images/square.jpg" alt="headshot" />
           <h1 className="headshot-title">Merry Christmas!</h1>
           <div className="headshot-aboutme">
