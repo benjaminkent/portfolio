@@ -32,8 +32,22 @@ class AboutMe extends Component {
               looking for a talented dev who will work his ass off, is
               passionate about making a positive impact on the world, and will
               continue to learn as much as possible; I would love to join your
-              team! Shoot me an email at benjamin.k.jehl@gmail.com or call me at
-              (727) 619-9736 or (260) 438-4562. Thanks for visiting my site!!
+              team! Shoot me an email at{' '}
+              <a
+                className="about-contact"
+                href="mailto:benjamin.k.jehl@gmail.com"
+              >
+                benjamin.k.jehl@gmail.com
+              </a>{' '}
+              or call me at
+              <a className="about-contact" href="tel://17276199736">
+                +1(727)619-9736
+              </a>{' '}
+              or{' '}
+              <a className="about-contact" href="tel://12604384562">
+                (260) 438-4562
+              </a>
+              . Thanks for visiting my site!!
             </p>
             <h1 className="about-me-header">Tech Philosophy</h1>
             <div className="underline" />
