@@ -1,10 +1,24 @@
 [
   {
+    "title": "find a bro",
+    "imageURL": "./images/find-a-bro.png",
+    "sourceURL": "http://www.findabro.net/",
+    "description": "Find a Bro",
+    "language": "Ruby, Rails, React.js, Sass"
+  },
+  {
     "title": "shopping",
     "imageURL": "./images/shopping.png",
     "sourceURL": "http://tubss-shopping-benjaminjehl.surge.sh/",
     "description": "Shopping Site Template",
     "language": "React.js, Bulma"
+  },
+  {
+    "title": "black jack",
+    "imageURL": "./images/blackjack.png",
+    "sourceURL": "http://blackjack-benjaminjehl.surge.sh/",
+    "description": "BlackJack Game",
+    "language": "JavaScript, HTML5, CSS3"
   },
   {
     "title": "photo gallery",
@@ -18,20 +32,6 @@
     "imageURL": "./images/weather.png",
     "sourceURL": "http://weather-benjaminjehl.surge.sh/",
     "description": "Check Your Weather!",
-    "language": "JavaScript, HTML5, CSS3"
-  },
-  {
-    "title": "black jack",
-    "imageURL": "./images/blackjack.png",
-    "sourceURL": "http://blackjack-benjaminjehl.surge.sh/",
-    "description": "BlackJack Game",
-    "language": "JavaScript, HTML5, CSS3"
-  },
-  {
-    "title": "roshambo",
-    "imageURL": "./images/roshambo.png",
-    "sourceURL": "http://roshambo-benjaminjehl.surge.sh/",
-    "description": "Rock, Paper, Scissors!",
     "language": "JavaScript, HTML5, CSS3"
   }
 ]
