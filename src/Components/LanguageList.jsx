@@ -58,7 +58,7 @@ class LanguageList extends Component {
           </ul>
           <div className="ee-two">
             <p>
-              Wow, you're still here, awesome! You're prize is this incredible
+              Wow, you're still here, awesome! Your prize is this incredible
               gif.
             </p>
             <img src="/images/cat-unicorn.gif" alt="cat riding a unicorn" />
