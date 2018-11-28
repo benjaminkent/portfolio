@@ -14,6 +14,13 @@
     "language": "React.js, Bulma"
   },
   {
+    "title": "redux color picker",
+    "imageURL": "./images/redux-color-picker.png",
+    "sourceURL": "http://reduxed-color-picker.surge.sh/",
+    "description": "Color Picker",
+    "language": "React.js, Redux.js, Sass"
+  },
+  {
     "title": "black jack",
     "imageURL": "./images/blackjack.png",
     "sourceURL": "http://blackjack-benjaminjehl.surge.sh/",
@@ -26,12 +33,5 @@
     "sourceURL": "http://myfavoritethings-benjaminjehl.surge.sh/",
     "description": "Photo Gallery",
     "language": "React.js, Bulma"
-  },
-  {
-    "title": "weather",
-    "imageURL": "./images/weather.png",
-    "sourceURL": "http://weather-benjaminjehl.surge.sh/",
-    "description": "Check Your Weather!",
-    "language": "JavaScript, HTML5, CSS3"
   }
 ]
