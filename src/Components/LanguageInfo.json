@@ -1,10 +1,5 @@
 [
   {
-    "language": "React.js",
-    "imageURL": "./images/react.png",
-    "class": "react"
-  },
-  {
     "language": "Ruby",
     "imageURL": "./images/ruby.png",
     "class": "ruby"
@@ -13,6 +8,16 @@
     "language": "Rails",
     "imageURL": "./images/rails.png",
     "class": "rails"
+  },
+  {
+    "language": "React.js",
+    "imageURL": "./images/react.png",
+    "class": "react"
+  },
+  {
+    "language": "Redux.js",
+    "imageURL": "./images/redux.png",
+    "class": "redux"
   },
   {
     "language": "PostgreSQL",
