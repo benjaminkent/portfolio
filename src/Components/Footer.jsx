@@ -7,7 +7,13 @@ class Footer extends Component {
         <section className="footer">
           <footer>
             <p>
-              Made with <i className="fas fa-heart" /> in St Petersburg, FL.
+              Made with <i className="fas fa-heart" /> and{' '}
+              <img
+                className="beard-logo"
+                src="./images/beard-logo-blond.png"
+                alt="beard logo"
+              />{' '}
+              in St Petersburg, FL.
             </p>
             <p>
               2018 Benjamin Kent Jehl,{' '}
