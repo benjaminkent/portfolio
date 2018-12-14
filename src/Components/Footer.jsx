@@ -10,7 +10,7 @@ class Footer extends Component {
               Made with <i className="fas fa-heart" /> and{' '}
               <img
                 className="beard-logo"
-                src="./images/beard-logo-blond.png"
+                src="./images/just-beard-blond.png"
                 alt="beard logo"
               />{' '}
               in St Petersburg, FL.
