@@ -25,11 +25,7 @@ class Header extends Component {
           <nav className="big-nav">
             <li>
               <NavLink onClick={this._hideMenu} to="/">
-                <img
-                  className="logo"
-                  src="./images/christmasfied-logo.png"
-                  alt="logo"
-                />
+                <img className="logo" src="./images/logo.png" alt="logo" />
               </NavLink>
             </li>
             <div className="big-header-links">
