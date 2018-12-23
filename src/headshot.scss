@@ -7,7 +7,7 @@
 }
 
 .hat {
-  display: block;
+  display: none;
   position: absolute;
   top: 5.3rem;
   margin: auto;
@@ -41,7 +41,7 @@ div.headshot-aboutme {
 
 .headshot-container::after {
   content: '';
-  background: url('/images/christmas-one.jpeg');
+  background: url('/images/new-years-three.jpg');
   background-size: cover;
   opacity: 0.4;
   top: 4rem;
