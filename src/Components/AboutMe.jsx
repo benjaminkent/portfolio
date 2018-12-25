@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import SocialMedia from './SocialMedia'
+
 class AboutMe extends Component {
   render() {
     return (
@@ -55,7 +57,8 @@ class AboutMe extends Component {
               .
             </p>
             <ul className="social-media">
-              <li>
+              <SocialMedia />
+              {/* <li>
                 <a
                   href="https://github.com/benjaminkent?tab=repositories"
                   target="_blank"
@@ -110,7 +113,7 @@ class AboutMe extends Component {
                     alt="twitter logo"
                   />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
