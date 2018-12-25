@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Headshot from './Headshot'
+import Hero from './Hero'
 import AboutMe from './AboutMe'
 import LanguageList from './LanguageList'
 import ScrollToTop from './ScrollToTop'
@@ -10,7 +10,7 @@ class Home extends Component {
     return (
       <>
         <ScrollToTop />
-        <Headshot />
+        <Hero />
         <AboutMe />
         <LanguageList />
       </>
