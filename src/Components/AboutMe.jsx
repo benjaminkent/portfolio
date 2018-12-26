@@ -58,62 +58,6 @@ class AboutMe extends Component {
             </p>
             <SocialMedia />
             {/* <ul className="social-media">
-            <li>
-                <a
-                  href="https://github.com/benjaminkent?tab=repositories"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="GitHub Repo"
-                >
-                  <img
-                    src="./images/github.png"
-                    className="social-icon"
-                    alt="github logo"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/benjaminkentjehl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Transport to my LinkedIn page"
-                >
-                  <img
-                    src="./images/linkedin.png"
-                    className="social-icon"
-                    alt="linkedin logo"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/benjaminkent7/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="See all of my awesome photography skills.."
-                >
-                  <img
-                    src="./images/instagram.png"
-                    className="social-icon"
-                    alt="instagram logo"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/BenjaminJehl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Tweet Tweet"
-                >
-                  <img
-                    src="./images/twitter.png"
-                    className="social-icon"
-                    alt="twitter logo"
-                  />
-                </a>
-              </li>
             </ul> */}
           </div>
         </div>
