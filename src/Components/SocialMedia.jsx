@@ -1,23 +1,31 @@
 import React, { Component } from 'react'
 
+import SocialMediaInfo from './SocialMediaInfo.json'
+
 class SocialMedia extends Component {
   render() {
     return (
       <>
-        <li>
-          <a
-            href="https://github.com/benjaminkent?tab=repositories"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="GitHub Repo"
-          >
-            <img
-              src="./images/github.png"
-              className="social-icon"
-              alt="github logo"
-            />
-          </a>
-        </li>
+        <ul className="social-media">
+          {SocialMediaInfo.map(media => {
+            return (
+              <li>
+                <a
+                  href={media.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={media.title}
+                >
+                  <img
+                    src={media.image}
+                    className="social-icon"
+                    alt="github logo"
+                  />
+                </a>
+              </li>
+            )
+          })}
+        </ul>
       </>
     )
   }

@@ -56,9 +56,9 @@ class AboutMe extends Component {
               </a>
               .
             </p>
-            <ul className="social-media">
-              <SocialMedia />
-              {/* <li>
+            <SocialMedia />
+            {/* <ul className="social-media">
+            <li>
                 <a
                   href="https://github.com/benjaminkent?tab=repositories"
                   target="_blank"
@@ -113,8 +113,8 @@ class AboutMe extends Component {
                     alt="twitter logo"
                   />
                 </a>
-              </li> */}
-            </ul>
+              </li>
+            </ul> */}
           </div>
         </div>
       </>

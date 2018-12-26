@@ -1,0 +1,22 @@
+[
+  {
+    "link": "https://github.com/benjaminkent?tab=repositories",
+    "title": "All of the code",
+    "image": "./images/github.png"
+  },
+  {
+    "link": "https://www.linkedin.com/in/benjaminkentjehl",
+    "title": "Transport to my LinkedIn page",
+    "image": "./images/linkedin.png"
+  },
+  {
+    "link": "https://www.instagram.com/benjaminkent7/",
+    "title": "See all of my awesome photography skills",
+    "image": "./images/instagram.png"
+  },
+  {
+    "link": "https://twitter.com/BenjaminJehl",
+    "title": "Tweet Tweet",
+    "image": "./images/twitter.png"
+  }
+]
