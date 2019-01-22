@@ -23,7 +23,7 @@ class Headshot extends Component {
                   className="about-me-links"
                 >
                   View my Portfolio
-                </Link>{' '}
+                </Link>
               </button>
               <button className="view-work-button second">
                 <Link
