@@ -15,7 +15,7 @@ class AboutMe extends Component {
               have followed my love of the tech industry and learned the skills
               that enable me to write full stack web applications. I am
               passionate about designing and building the technologies that will
-              shape the future. When I'm not coding, I enjoy playing guitar,
+              shape the future. When I'm not coding I enjoy playing guitar,
               sports, cooking, traveling... and learning how to be a better Web
               Developer!
             </p>
