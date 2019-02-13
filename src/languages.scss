@@ -50,15 +50,6 @@ p.skills {
   padding: 0;
 }
 
-.react {
-  background-color: #81d8f7;
-}
-
-.redux {
-  background-color: #6f4fb6;
-  color: #fff;
-}
-
 .ruby {
   background-color: #b82c1a;
   color: #fff;
@@ -66,6 +57,20 @@ p.skills {
 
 .rails {
   background-color: #c1281b;
+  color: #fff;
+}
+
+.vue {
+  background-color: #64B587;
+  color: #fff;
+}
+
+.react {
+  background-color: #81d8f7;
+}
+
+.redux {
+  background-color: #6f4fb6;
   color: #fff;
 }
 
@@ -93,9 +98,6 @@ p.skills {
   color: #fff;
 }
 
-.phaser {
-  background-color: #aed9e9;
-}
 
 section.skills-section {
   background-color: $primary-gray;

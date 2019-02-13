@@ -10,6 +10,11 @@
     "class": "rails"
   },
   {
+    "language": "Vue.js",
+    "imageURL": "./images/vue-logo.png",
+    "class": "vue"
+  },
+  {
     "language": "React.js",
     "imageURL": "./images/react.png",
     "class": "react"
