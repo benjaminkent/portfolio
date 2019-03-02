@@ -27,7 +27,7 @@ class Header extends Component {
               <NavLink onClick={this._hideMenu} to="/">
                 <img
                   className="logo"
-                  src="./images/new-years-logo.png"
+                  src="./images/logo.png"
                   alt="logo"
                 />
               </NavLink>

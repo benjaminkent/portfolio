@@ -1,30 +1,35 @@
 $primary-black: #212227;
 $primary-gray: #eff1f4;
 
-// Standard Colors:
+// Standard:
 // $main: #2355aac;
 // $secondary: #f7a50e;
 // $letters: #d5dfef;
 
-// Thanksgiving colors:
+// Thanksgiving:
 // $main: #512215;
 // $secondary: #e77935;
 // $letters: #e1ce7a;
 
-// Christmas Colors:
+// Christmas:
 // $main: #3f7f3d;
 // $secondary: #a1211c;
 // $letters: #f8e27b;
 
-// New Years Colors:
+// New Years:
 // $main: #211f2f;
 // $secondary: #ad4e97;
 // $letters: #ffeffb;
 
 // Valentines Day
-$main: #35101a;
-$secondary: #eb698c;
-$letters: #eaa1b5;
+// $main: #35101a;
+// $secondary: #eb698c;
+// $letters: #eaa1b5;
+
+// St. Patrick's Day
+$main: #30323D;
+$secondary: #70D569;
+$letters: #FFBF46;
 
 @import 'header';
 @import 'hero';
