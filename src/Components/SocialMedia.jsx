@@ -7,9 +7,9 @@ class SocialMedia extends Component {
     return (
       <>
         <ul className="social-media">
-          {SocialMediaInfo.map(media => {
+          {SocialMediaInfo.map((media, index) => {
             return (
-              <li>
+              <li key={index}>
                 <a
                   href={media.link}
                   target="_blank"
