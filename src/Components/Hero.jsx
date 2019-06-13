@@ -12,9 +12,9 @@ class Headshot extends Component {
             alt="santa hat"
           />
           <img className="headshot" src="/images/square.jpg" alt="headshot" />
-          <h1 className="headshot-title">Happy St. Patrick's Day!</h1>
+          <h1 className="headshot-title">Hello!</h1>
           <div className="headshot-aboutme">
-            My name is Benjamin Kent Jehl and I am a Full Stack Web Developer.
+            My name is Benjamin Kent Jehl and I am a Software Engineer.
             <div className="view-work-button-section">
               <button className="view-work-button first">
                 <Link
